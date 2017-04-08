@@ -68,19 +68,17 @@ nav ul{
     justify-content: space-around;
     height: 100%;
     width: 100%;
+    align-items: center;
 }
 nav li{
-    position: relative;
-    right: 20%;
     text-align: center;
     color: white;
     display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 100%;
 }
 .menutext{
-    position: absolute;
-    top: 50%;
     width: 100%;
 }
                                         /*svg icone menu */
@@ -123,6 +121,7 @@ div#aproposcarrousel figure div{
   100% { left: -200%; }
 
 }
+/*1er page carrouselle*/
 .carouselleapropos{
     text-align: center;
     display: flex;

@@ -5,6 +5,7 @@
         <link href="cssprojet.css" rel="stylesheet"/>
     </head>
     <body>
+<!--        insertion du header et du menu-->
         <?php include('headerprojet.html'); ?>
         <?php include('menu.html');?>
         <div id="aproposcarrousel">
