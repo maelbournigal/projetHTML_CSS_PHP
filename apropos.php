@@ -1,10 +1,11 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>"menu"</title>
-        <link href="css.css" rel="stylesheet"/>
+        <title>"a propos"</title>
+        <link href="cssprojet.css" rel="stylesheet"/>
     </head>
     <body>
+        <?php include('headerprojet.html'); ?>
         <?php include('menu.html');?>
         <div id="aproposcarrousel">
           <figure>
