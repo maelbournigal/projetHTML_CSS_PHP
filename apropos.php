@@ -8,6 +8,7 @@
 <!--        insertion du header et du menu-->
         <?php include('headerprojet.html'); ?>
         <?php include('menu.html');?>
+<!--        carrouselle-->
         <div id="aproposcarrousel">
           <figure>
               <div class="carouselleapropos" id="agence">
@@ -17,12 +18,23 @@
               <div class="carouselleapropos" id="equipe">
                   <h1>L'équipe</h1>
                   <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                  <img src="max.jpg" alt="maxime" title="maxime" />
-                  <img src="samuel.jpg" alt="samuel" title="samuel"/>
-                  <img src="jeremy.jpg" alt="jeremy" title="jeremy"/>
-                  <img src="mael.jpg" alt="mael" 
-                       title="mael"/>
-                  <img src="max.jpg" alt="maxime" title="maxime" />
+                  <div id="contributeur">
+                    <div class="collegue">
+                      <img src="max.jpg" alt="maxime" title="maxime" /><p class="nom">Maxime Grand</p>
+                      <p class="nom">développeur</p>
+                    </div>
+                    <div class="collegue">
+                      <img src="samuel.jpg" alt="samuel" title="samuel"/><p class="nom">Samuel Poultier</p>
+                        <p class="nom">développeur</p></div>
+                      <div class="collegue"><img src="jeremy.jpg" alt="jeremy" title="jeremy"/><p class="nom">Jeremy Nunes</p>
+                      <p class="nom">développeur</p>
+                    </div>
+                    <div class="collegue">
+                    <img src="mael.jpg" alt="mael" 
+                         title="mael"/><p class="nom">Mael Bournigal</p>
+                    <p class="nom">développeur</p></div>
+                  </div>
+                
              </div>
              <div class="carouselleapropos" id="locau"> 
                  <h1>Les locaux</h1>

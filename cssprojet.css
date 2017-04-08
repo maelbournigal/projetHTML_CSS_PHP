@@ -32,6 +32,7 @@ header #logobloc{
 }
 #langue{
     width: 3%;
+    height: 10%;
     position: absolute;
     right: 2%;
 }
@@ -40,6 +41,7 @@ header #logobloc{
     top: 35%;
     right: 0%;
     opacity: 0;
+    z-index: 10;
 }
 header ul{
     list-style-type: none;
@@ -58,34 +60,33 @@ nav{
     width: 9%;
     position: fixed;
     background-color: rgba(0,0,0,0.7) ;
-    position: absolute;
     bottom: 0;
+    position: absolute;
 }
 nav ul{
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     height: 100%;
     width: 100%;
-    align-items: center;
 }
 nav li{
-    text-align: center;
     color: white;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
 }
 .menutext{
     width: 100%;
+    display: inline-flex;
 }
                                         /*svg icone menu */
 .icones{
-    width: 100%;
-    height: 50%;
-    position: absolute;
+    display: inline-flex;
+    width: 60%;
+    height: 10%;
 }
 
 /*///////////////////////////////////////////Carrousel  ////////////////////////////////////////////////////*/
@@ -135,6 +136,26 @@ div#aproposcarrousel figure div{
     position: relative;
     top: 30%;
 }
+/*carrouselle deuxieme page*/
+#contributeur{
+  display: flex;
+  position: relative;
+  left: 40%;
+  top: 5%;
+}
+.collegue{
+  overflow: hidden;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.nom{
+  top: 15%;
+}
+.collegue:hover .nom {
+  top: 5%;
+}
+/*carrouselle derniere page*/
 #locau iframe{
     position: relative;
     left: 50%;
