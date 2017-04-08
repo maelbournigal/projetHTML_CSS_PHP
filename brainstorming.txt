@@ -1,0 +1,45 @@
+HEADER ? PRESENCE OU NON ?
+header light
+proposition du choix de la langue (anglais)
+
+MENU:
+Menu déroulant
+Menu sur la gauche
+Menu burger
+(Menu avec background + opacity)
+
+
+BODY :
+différentes pages : accueil, à propos, nos services, référence, blog, contact.
+Page couleur claire, foncé, non vive, présence de transparence.
+accueil : Présentation courte, précise et concise. Photo en fond d'écran opaque.
+à propos : Description précise, longue et détaillé de l'agence. Courte et précise des membre de l'équipe (lien vers les différents réseaux sociaux et email).
+Description des locaux et map.
+nos services : Différentes offres en liste ou en bloc cote a cote.
+référence : avis des clients et exposition des travaux effectués avec ceux-ci.
+blog : Article posté sur les news de l'entreprise, mini rapport par jour de travail.
+contact : formulaire (nom, prénom, email, objet, message).
+Caroussel horizontal ou vertical ?
+Carrousel comprenant des images créées par l'agence
+animation -> logo / hover
+(page d'accueil avec des transitions (un coup image un coup zone blanche))
+style tablette (tuile)?
+Présence des photos de l'équipe
+
+FOOTER :
+Avec adresse postale
+Map
+Liens vers profils de réseaux sociaux (logo)
+Date de création du site et ouverture de l'agence.
+Partenariat et sponsoring.
+
+
+MOTS CLEFS :
+Intuitivité
+Design
+Responsive
+Epuré
+
+
+
+

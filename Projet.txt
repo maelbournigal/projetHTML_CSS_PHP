@@ -1,0 +1,2 @@
+acceuil (présentation courte et épurer), à propos (descritpion précise), blog/actualités (news sur l'entreprise et sur nos dossier en cours), nos références (avis), nos services (offres de l'entreprise), formulaire (contacter l'entreprise)
+menu sur le coté en possition fixe, caroussel sur l'acceuil, en dessous fond blanc avec avis, caroussel moins grossier pour les services, formulaire court (nom, prénom adresse mail messgage)
