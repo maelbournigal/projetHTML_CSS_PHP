@@ -2,13 +2,13 @@
   <head>
     <meta charset="utf-8">
     <title>"a propos"</title>
-    <link href="cssprojet.css" rel="stylesheet"/>
+    <link href="../css/cssprojet.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
   </head>
   <body>
 <!--        insertion du header et du menu-->
-        <?php include('headerprojet.html'); ?>
-        <?php include('menu.html');?>
+        <?php include('../headerprojet.html'); ?>
+        <?php include('../menu.html');?>
 <!--        carrouselle-->
         <div id="aproposcarrousel">
           <figure>
