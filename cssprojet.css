@@ -79,7 +79,6 @@ nav li{
     height: 100%;
 }
 .menutext{
-    width: 100%;
     display: inline-flex;
 }
                                         /*svg icone menu */
@@ -106,7 +105,7 @@ div#aproposcarrousel figure{
     height: 100%;
     text-align: left;
     margin: 0;
-    animation: 60s slidy infinite;
+/*    animation: 60s slidy infinite;*/
     display: flex;
     
 }
@@ -122,39 +121,45 @@ div#aproposcarrousel figure div{
   100% { left: -200%; }
 
 }
-/*1er page carrouselle*/
 .carouselleapropos{
     text-align: center;
-    display: flex;
-    flex-direction: column;
 }
 .carouselleapropos h1{
     position: relative;
     top: 10%;
 }
-.carouselleapropos p{
+#agence p{
     position: relative;
     top: 30%;
 }
 /*carrouselle deuxieme page*/
+
 #contributeur{
-  display: flex;
   position: relative;
-  left: 40%;
-  top: 5%;
+  top: 50px;
+  display: inline-flex;
+  align-self: center;
 }
-.collegue{
-  overflow: hidden;
-  height: 10%;
-  display: flex;
-  flex-direction: column;
+.collegue img{
+  width: 100%;
+  height: 20%;
 }
 .nom{
-  top: 15%;
+  position: relative;
+  color: transparent;
+  top: -50%;
 }
 .collegue:hover .nom {
-  top: 5%;
+  color: black;
 }
+.collegue:hover img{
+  opacity: 0.5;
+}
+#equipepres{
+  position: relative;
+  top: 40%;
+}
+
 /*carrouselle derniere page*/
 #locau iframe{
     position: relative;
