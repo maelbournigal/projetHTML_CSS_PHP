@@ -1,0 +1,482 @@
+/*Mael: 1600*900 */
+
+
+/*CSS menu */
+
+Body {
+    margin: 0;
+    font-family: 'Concert One', cursive;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover,
+a:active {
+    outline: 0;
+}
+
+
+/*///////////////////////////////////////////////header ////////////////////////////////////////////////////*/
+
+header {
+    display: flex;
+}
+
+img[title="logo"] {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+#nom_entreprise_logo {
+    position: absolute;
+    top: 70%;
+    left: 32%;
+    color: white;
+}
+
+header #logobloc {
+    width: 9%;
+    height: 20%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+}
+
+#langue {
+    width: 3%;
+    height: 10%;
+    position: absolute;
+    right: 2%;
+}
+
+#flagenglish {
+    position: absolute;
+    top: 35%;
+    right: 0%;
+    opacity: 0;
+    z-index: 10;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+#langue:hover #flagenglish {
+    opacity: 1;
+}
+
+
+/*////////////////////////////////////////////////Nav //////////////////////////////////////////////////////*/
+
+nav {
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    height: 80%;
+    width: 9%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    position: absolute;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+}
+
+nav li {
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.menutext {
+    display: inline-flex;
+}
+
+
+/*svg icone menu */
+
+.icones {
+    display: inline-flex;
+    width: 60%;
+    height: 10%;
+    align-self: center;
+}
+
+
+/*///////////////////////////////////////////Carrousel  ////////////////////////////////////////////////////*/
+
+div#aproposcarrousel {
+    width: 91%;
+    min-width: 1000px;
+    position: absolute;
+    left: 9%;
+    overflow: hidden;
+    height: 100%;
+}
+
+div#aproposcarrousel figure {
+    width: 304%;
+    position: relative;
+    padding: 0;
+    left: 0;
+    height: 100%;
+    text-align: left;
+    margin: 0;
+    /*    animation: 60s slidy infinite;*/
+    display: flex;
+}
+
+div#aproposcarrousel figure div {
+    width: 33%;
+    height: auto;
+    min-width: 100px;
+}
+
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+    30% {
+        left: 0%;
+    }
+    35% {
+        left: -100%;
+    }
+    65% {
+        left: -100%;
+    }
+    70% {
+        left: -200%;
+    }
+    100% {
+        left: -200%;
+    }
+}
+
+.carouselleapropos {
+    text-align: center;
+}
+
+.carouselleapropos h1 {
+    position: relative;
+    top: 10%;
+}
+
+#agence p {
+    position: relative;
+    top: 30%;
+}
+
+
+/*carrouselle deuxieme page*/
+
+#contributeur {
+    position: relative;
+    top: 50px;
+    display: inline-flex;
+    align-self: center;
+}
+
+.collegue img {
+    width: 100%;
+    height: 20%;
+    padding: 10%;
+}
+
+.nom {
+    position: relative;
+    color: transparent;
+    top: -50%;
+}
+
+.collegue:hover .nom {
+    color: black;
+}
+
+.collegue:hover img {
+    opacity: 0.5;
+}
+
+#equipepres {
+    position: relative;
+    top: 40%;
+}
+
+
+/*carrouselle derniere page*/
+
+#locau iframe {
+    position: relative;
+    left: 50%;
+    top: 10%;
+}
+
+#adresse {
+    position: relative;
+    top: 10%;
+}
+
+
+/* responsive */
+
+@media screen and (min-width: 1601px) and (max-width:1920px) {
+    nav {
+        width: 9%;
+    }
+    img[title="logo"] {
+        height: 8%;
+        top: 3%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width:1599px) {
+    nav {
+        width: 11%;
+    }
+    header #logobloc {
+        width: 11%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width:1199px) {
+    nav {
+        width: 13%;
+    }
+    header #logobloc {
+        width: 13%;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width:699px) {
+    nav {
+        width: 15%;
+    }
+    header #logobloc {
+        width: 15%;
+    }
+}
+
+
+/***********************************************/
+
+
+/* SAMUEL,RESOLUTION=1920*1080*/
+
+
+/* FORMULAIRE DE CONTACT */
+
+h1 {
+    text-transform: uppercase;
+    /* Transforme le texte en majuscules */
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+/* LE BLOC DE GAUCHE (Vous êtes) */
+
+.contactus#civilite {
+    margin-top: 5%;
+    margin-right: 50%;
+}
+
+
+/* LE BLOC DE DROITE (Votre demande) */
+
+.contactus#demandeclient {
+    margin-top: -3%;
+    margin-left: 20%;
+}
+
+
+/* LE BLOC POUR LE FORMULAIRE LA OU IL Y A TOUS LES CHAMPS DE CONTACT*/
+
+.formcontact {
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+
+/* LABEL OBJET */
+
+#objetdumessage {
+    padding-top: 2%;
+}
+
+
+/* LABEL MESSAGE */
+
+p#lemessage {
+    margin-top: 0%;
+}
+
+
+/* LE BLOC POUR LE FORMULAIRE D'ENVOIE DE MESSAGE */
+
+.contactright {
+    margin-top: -20%;
+    margin-left: 45%;
+}
+
+
+/* CSS POUR LES CHAMP UTILISTEUR */
+
+input {
+    width: 23%;
+    margin-top: 1%;
+    display: flex;
+}
+
+#sexecss {
+    margin-left: 1%;
+}
+
+
+/* CSS POUR LES CHECKBOX DU GENRE DE LA PERSONNE */
+
+.genre {
+    width: 2%;
+    display: inline;
+    border: 2px solid red;
+}
+
+
+/* CSS POUR LE TEXTAREA OU LE MESSAGE EST SAISIE */
+
+.contactright #emailformulaire {
+    width: 290px;
+    height: 200px;
+}
+
+
+/* CSS POUR LES CHAMPS DE RENSEIGNEMENT A GAUCHE, EXCEPTION FAITE DES CHECKBOX */
+
+.inline {
+    display: inline;
+    margin-top: 0.5%;
+    margin-left: 1%;
+}
+
+
+/* POUR LE BOUTON PERMETTANT DE VALIDER LE FORMULAIRE */
+
+#boutonvalider {
+    border-radius: 5px;
+    width: 10%;
+}
+
+
+/* CSS SPECIFIQUE AU TEXTE DANS LES LABLES DONC Civilité,Nom,Prenom...*/
+
+label {
+    display: block;
+    width: 100px;
+    float: left;
+    margin-top: 5px;
+}
+
+
+/* CSS POUR LE LABEL OBJET */
+
+.contactright label {
+    margin-top: -38%;
+}
+
+
+/* QUAND IL Y A UN SPAN DANS UN LABEL */
+
+label span {
+    color: red;
+}
+
+
+/* CSS UTILISEE POUR BIEN POSITIONNER LE MESSAGE CONFIRMANT L'ENVOIE DU MESSAGE */
+
+.reponsecontact {
+    margin-top: 5%;
+    margin-left: 32%;
+}
+
+
+/* LA DIV UTILISEE POUR LE CONTENU A COTE DU MENU */
+
+.fondcontact {
+    background-color: white;
+    margin-top: -22px;
+    height: 1000px;
+}
+
+footer {
+    margin-left: 11%;
+    width: 100%;
+    height: inherit;
+    margin-top: 11%;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.7)
+}
+
+
+/******************************************************/
+
+
+/******************************************************/
+
+
+/******************************************************/
+
+
+/* PAGE ACCUEIL */
+
+
+/* TEXTE PAR DESSUS IMAGE */
+
+.legende1 {
+    position: relative;
+    width: 100%;
+    opacity: 0.7;
+}
+
+#titrelegende {
+    position: absolute;
+    top: 20%;
+    left: 0px;
+    width: 100%;
+}
+
+#titrelegende2 {
+    position: absolute;
+    top: 25%;
+    left: 0px;
+    width: 100%;
+}
+
+
+/************************************************************/
