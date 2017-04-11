@@ -10,11 +10,11 @@ header{
     display: flex;
 }
 img[title="logo"]{
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 60%;
     position: absolute;
-    top: 20%;
-    left:25%;
+    top: 10%;
+    left:10%;
 }
 #nom_entreprise_logo{
     position: absolute;
@@ -166,7 +166,7 @@ img[title='fondcarrouselle3']{
   position: relative;
   top: 30%;
   width: 80%;
-  left: 15%;
+  left: 11%;
 
 }
 
