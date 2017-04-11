@@ -108,7 +108,7 @@ div#aproposcarrousel figure{
     height: 100%;
     text-align: left;
     margin: 0;
-/*    animation: 60s slidy infinite;*/
+    animation: 60s slidy infinite;
     display: flex;
     
 }
