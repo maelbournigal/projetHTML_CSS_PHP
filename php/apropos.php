@@ -50,7 +50,7 @@
                     <h2>L'adresse postale</h2>
                      <p>Moulin de la Sainte Catherine 44430 La Remaudiere</p>
                  </div>
-                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5418.40698517486!2d-1.2544573648130382!3d47.23216533933331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1490190489133" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                 <iframe id="iframadresse" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5418.40698517486!2d-1.2544573648130382!3d47.23216533933331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1490190489133" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
              </div>
           </figure>
         </div>
