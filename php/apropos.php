@@ -13,10 +13,12 @@
         <div id="aproposcarrousel">
           <figure>
               <div class="carouselleapropos" id="agence">
+                <img src="../img/fondcarouselle1.png" alt="fond du carrouselle" title="fondcarrouselle1"/>
                   <h1>Présentation de notre Agence</h1>
                  <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
               </div>  
               <div class="carouselleapropos" id="equipe">
+                <img src="../img/fondcarouselle2.png" alt="fond du carrouselle" title="fondcarrouselle2"/>
                 <h1>L'équipe</h1>
                 <p id="equipepres">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                 <div id="contributeur">
@@ -42,8 +44,9 @@
                 </div>   
               </div>
              <div class="carouselleapropos" id="locau"> 
-                 <h1>Les locaux</h1>
-                 <div id="adresse">
+               <img src="../img/fondcarouselle4.png" alt="fond du carrouselle" title="fondcarrouselle3"/>
+                <h1>Les locaux</h1>
+                <div id="adresse">
                     <h2>L'adresse postale</h2>
                      <p>Moulin de la Sainte Catherine 44430 La Remaudiere</p>
                  </div>

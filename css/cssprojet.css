@@ -131,6 +131,36 @@ div#aproposcarrousel figure div{
     position: relative;
     top: 10%;
 }
+img[title='fondcarrouselle1']{
+  z-index: -7;
+  opacity: 0.5;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 32.9%;
+  height: 100%;
+  background-color: black;
+}
+img[title='fondcarrouselle2']{
+  z-index: -7;
+  opacity: 0.5;
+  position: absolute;
+  left: 32.9%;
+  top: 0%;
+  width: 32.9%;
+  height: 100%;
+  background-color: black;
+}
+img[title='fondcarrouselle3']{
+  z-index: -7;
+  opacity: 0.5;
+  position: absolute;
+  left: 66%;
+  top: 0%;
+  width: 32.9%;
+  height: 100%;
+  background-color: black;
+}
 #agence p{
     position: relative;
     top: 30%;
@@ -167,12 +197,7 @@ div#aproposcarrousel figure div{
 /*carrouselle derniere page*/
 #locau iframe{
     position: relative;
-    left: 50%;
-    top: 10%;
-}
-#adresse{
-    position: relative;
-    top: 10%;
+    left: 20%;
 }
 /* SAMUEL,RESOLUTION=1920*1080*/
 
