@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8">
     <title>"a propos"</title>
-    <link href="../css/cssprojet.css" rel="stylesheet"/>
+    <link href="../css/style.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
     <script>
         function verifierCaracteres(event) {
@@ -21,14 +21,15 @@
         <?php include('headerprojet.html'); ?>
         <?php include('menu.html');?>
 <!--        carrouselle-->
- 
+ <div class="body">
   <h1 id="contacter">Contactez nous</h1>
+       <p id="descriptionnouscontacter">Vous voulez profiter de nos services ? Vous avez un projet à réaliser ?<br>N'hésitez pas à nous contacter en remplissant le formulaire ci joint. <br> Vous pouvez également nous contacter par téléphone au 02 47 12 63 19.</p>
         <!-- On donne la même classe pour que les bloc soit sur la même ligne, et un id différent
     pour les espacer avec un margin -->
         <h2 class="contactus" id="civilite">Vous êtes</h2>
         <h2 class="contactus" id="demandeclient">Votre demande</h2> </body>
 <!-- Création du formulaire de contact -->
-<form method="post" class="formcontact" action="php/adduser.php">
+<form method="post" class="formcontact" action="adduser.php">
     <!-- On utilisera des labels pour avoir le texte d'indication du champ au même niveau,
     par exemple Ville est au même niveau que l'endroit ou on va saisir notre ville, on l'utilise 
     aussi pour avoir des input alignés et de la même taile -->
@@ -67,11 +68,11 @@
         <label for="objet" id="objetdumessage">Objet : <span>*</span></label>
         <input type="text" onkeypress="verifierCaracteres(event); return false;" required="required" placeholder="Objet" maxlength="30" name="objet"> <br> 
         <!-- <p id="lemessage">Message : <span>*</span> -->
-        <textarea placeholder="Votre message" required="required" onkeypress="verifierCaracteres(event); return false;" maxlength="5000" id="emailformulaire" name="messageduclient"> </textarea>
+        <textarea required="required" onkeypress="verifierCaracteres(event); return false;" maxlength="5000" id="emailformulaire" name="messageduclient"> </textarea>
         <input type="submit"  value="Valider" id="boutonvalider" /> </div>
 </form>
- <footer>
-        <p> TEST</p> <p> TEST</p> <p> TEST</p> 
-    </footer>
-    
+      <!--        insertion du footer-->
+        <?php include('footer.html');?>
+      </div>
+
   </body>
