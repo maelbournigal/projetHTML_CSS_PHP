@@ -113,9 +113,10 @@ nav li {
     height: 100%;
 }
 
-#svgpropos{
-    margin-left:6%;
+#svgpropos {
+    margin-left: 6%;
 }
+
 .menutext {
     display: inline-flex;
 }
@@ -247,6 +248,24 @@ div#aproposcarrousel figure div {
 
 /* responsive */
 
+
+/*********************************************************************/
+
+
+/*********************************************************************/
+
+
+/*********************************************************************/
+
+
+/*********************************************************************/
+
+
+/*********************************************************************/
+
+
+/*********************************************************************/
+
 @media screen and (min-width: 1601px) and (max-width:1920px) {
     nav {
         width: 9%;
@@ -257,6 +276,9 @@ div#aproposcarrousel figure div {
     }
 }
 
+
+/*ORDI DE JEREMY*/
+
 @media screen and (min-width: 1200px) and (max-width:1599px) {
     nav {
         width: 11%;
@@ -266,6 +288,33 @@ div#aproposcarrousel figure div {
     }
 }
 
+
+/*******************************************************/
+
+
+/*******************************************************/
+
+
+/* TABLETTE */
+
+
+/*********************************************************************/
+
+
+/*********************************************************************/
+
+
+/*********************************************************************/
+
+
+/*********************************************************************/
+
+
+/*********************************************************************/
+
+
+/*********************************************************************/
+
 @media screen and (min-width: 700px) and (max-width:1199px) {
     nav {
         width: 13%;
@@ -273,18 +322,296 @@ div#aproposcarrousel figure div {
     header #logobloc {
         width: 13%;
     }
+    #descriptionnouscontacter {
+        color: aqua;
+        margin-right: 10%;
+    }
+    /* Titre */
+    #contacter {
+        text-align: center;
+        margin-left: 10%;
+    }
+    /* LE BLOC DE GAUCHE (Vous êtes) */
+    .contactus#civilite {
+        margin-top: 30px;
+    }
+    /* LE BLOC DE DROITE (Votre demande) */
+    .contactus#demandeclient {
+        margin-right: -30%;
+    }
+    /* LE BLOC POUR LE FORMULAIRE LA OU IL Y A TOUS LES CHAMPS DE CONTACT*/
+    .formcontact {
+        margin-top: 0%;
+        margin-left: 0%;
+        height: 60%;
+    }
+    /* LABEL OBJET */
+    #objetdumessage {
+        padding-top: 0%;
+        margin-top: -20%;
+        margin-left: -40%;
+    }
+    /* LE BLOC POUR LE FORMULAIRE D'ENVOIE DE MESSAGE */
+    .contactright {
+        padding-top: -20px;
+        margin-left: 15%;
+    }
+    /* CSS POUR LES CHAMP UTILISATEUR */
+    input {
+        width: 5%;
+        margin-top: 1%;
+        display: flex;
+        margin-left: 0%;
+        margin-right: 40%;
+        /* BUG NON VOULU MAIS LE RENDU EST BIEN */
+    }
+    #sexecss {
+        margin-left: 1%;
+    }
+    /* CSS POUR LE TEXTAREA OU LE MESSAGE EST SAISIE */
+    .contactright #emailformulaire {
+        width: 50px;
+        height: 150px;
+        margin-top: -20%;
+        border: 2px solid red;
+    }
+    /* CSS POUR LES CHAMPS DE RENSEIGNEMENT A GAUCHE, EXCEPTION FAITE DES CHECKBOX */
+    .inline {
+        display: inline;
+        margin-top: 0.5%;
+        margin-left: 0%;
+    }
+    /* CSS SPECIFIQUE AU TEXTE DANS LES LABLES DONC Civilité,Nom,Prenom...*/
+    label {
+        display: block;
+        width: 20px;
+        margin-top: 5px;
+    }
+    /* CSS POUR LE LABEL OBJET */
+    .contactright label {
+        padding-left: 60%;
+    }
+    /* QUAND IL Y A UN SPAN DANS UN LABEL */
+    label span {
+        color: red;
+    }
+    /* CSS UTILISEE POUR BIEN POSITIONNER LE MESSAGE CONFIRMANT L'ENVOIE DU MESSAGE */
+    .reponsecontact {
+        margin-top: 5%;
+        margin-left: 32%;
+    }
+    /* LA DIV UTILISEE POUR LE CONTENU A COTE DU MENU */
+    .body {
+        margin-left: 11%;
+        margin-top: -2%;
+        height: 102%;
+        background-color: rgba(189, 195, 199, 1);
+    }
+    #elephantnantes {
+        width: 100%;
+        height: 90%;
+    }
+    .body p#descriptionnouscontacter {
+        margin-left: 35%;
+    }
+    /* DIV POUR LE PIED DE PAGE */
+    footer {
+        text-align: center;
+        height: 8.5%;
+        margin-top: 8%;
+        color: white;
+        background-color: rgba(10, 10, 10, 0.7)
+    }
+    /******************************************************/
+    /******************************************************/
+    /******************************************************/
+    /* PAGE ACCUEIL */
+    /* TEXTE PAR DESSUS IMAGE */
+    .legende1 {
+        position: relative;
+        width: 100%;
+        height: 111%;
+        margin-left: 11%;
+        opacity: 0.5;
+    }
+    #titrelegende {
+        position: absolute;
+        top: 20%;
+        margin-left: -3%;
+        width: 100%;
+    }
+    #titrelegende2 {
+        position: absolute;
+        top: 25%;
+        margin-left: -3%;
+        width: 100%;
+        text-align: center;
+    }
+    #paragraphelegende {
+        position: absolute;
+        top: 30%;
+        margin-left: 35%;
+        width: 100%;
+    }
+    /************************************************************/
+    /*********************************************************************/
+    /*********************************************************************/
+    /*********************************************************************/
+    /*********************************************************************/
+    /*********************************************************************/
+    /*********************************************************************/
+    /* FIN PARTIE SAMUEL */
 }
 
-@media screen and (min-width: 350px) and (max-width:699px) {
+
+/* SMARTPHONE */
+
+@media screen and (min-width:300px) and (max-width:699px) {
     nav {
         width: 15%;
     }
     header #logobloc {
         width: 15%;
     }
+    #descriptionnouscontacter {
+        color: red;
+    }
+    /* Titre */
+    #contacter {
+        text-align: center;
+        margin-left: 10%;
+    }
+    /* LE BLOC DE GAUCHE (Vous êtes) */
+    .contactus#civilite {
+        margin-top: 30px;
+    }
+    /* LE BLOC DE DROITE (Votre demande) */
+    .contactus#demandeclient {
+        margin-right: -30%;
+    }
+    /* LE BLOC POUR LE FORMULAIRE LA OU IL Y A TOUS LES CHAMPS DE CONTACT*/
+    .formcontact {
+        margin-top: 0%;
+        margin-left: 0%;
+        height: 60%;
+    }
+    /* LABEL OBJET */
+    #objetdumessage {
+        padding-top: 0%;
+        margin-top: -20%;
+        margin-left: -40%;
+    }
+    /* LE BLOC POUR LE FORMULAIRE D'ENVOIE DE MESSAGE */
+    .contactright {
+        padding-top: -20px;
+        margin-left: 15%;
+    }
+    /* CSS POUR LES CHAMP UTILISATEUR */
+    input {
+        width: 5%;
+        margin-top: 1%;
+        display: flex;
+        margin-left: 0%;
+        margin-right: 40%;
+        /* BUG NON VOULU MAIS LE RENDU EST BIEN */
+    }
+    #sexecss {
+        margin-left: 1%;
+    }
+    /* CSS POUR LE TEXTAREA OU LE MESSAGE EST SAISIE */
+    .contactright #emailformulaire {
+        width: 50px;
+        height: 150px;
+        margin-top: -20%;
+        border: 2px solid red;
+    }
+    /* CSS POUR LES CHAMPS DE RENSEIGNEMENT A GAUCHE, EXCEPTION FAITE DES CHECKBOX */
+    .inline {
+        display: inline;
+        margin-top: 0.5%;
+        margin-left: 0%;
+    }
+    /* CSS SPECIFIQUE AU TEXTE DANS LES LABLES DONC Civilité,Nom,Prenom...*/
+    label {
+        display: block;
+        width: 20px;
+        margin-top: 5px;
+    }
+    /* CSS POUR LE LABEL OBJET */
+    .contactright label {
+        padding-left: 60%;
+    }
+    /* QUAND IL Y A UN SPAN DANS UN LABEL */
+    label span {
+        color: red;
+    }
+    /* CSS UTILISEE POUR BIEN POSITIONNER LE MESSAGE CONFIRMANT L'ENVOIE DU MESSAGE */
+    .reponsecontact {
+        margin-top: 5%;
+        margin-left: 32%;
+    }
+    /* LA DIV UTILISEE POUR LE CONTENU A COTE DU MENU */
+    .body {
+        margin-left: 11%;
+        margin-top: -2%;
+        height: 102%;
+        background-color: rgba(189, 195, 199, 1);
+    }
+    #elephantnantes {
+        width: 100%;
+        height: 90%;
+    }
+    .body p#descriptionnouscontacter {
+        margin-left: 35%;
+    }
+    /* DIV POUR LE PIED DE PAGE */
+    footer {
+        text-align: center;
+        height: 8.5%;
+        margin-top: 8%;
+        color: white;
+        background-color: rgba(10, 10, 10, 0.7)
+    }
+    /* PAGE ACCUEIL */
+    /* TEXTE PAR DESSUS IMAGE */
+    .legende1 {
+        position: relative;
+        width: 100%;
+        height: 111%;
+        margin-left: 11%;
+        opacity: 0.5;
+    }
+    #titrelegende {
+        position: absolute;
+        top: 20%;
+        margin-left: -3%;
+        width: 100%;
+    }
+    #titrelegende2 {
+        position: absolute;
+        top: 25%;
+        margin-left: -3%;
+        width: 100%;
+        text-align: center;
+    }
+    #paragraphelegende {
+        position: absolute;
+        top: 30%;
+        margin-left: 35%;
+        width: 100%;
+    }
+    /************************************************************/
+    /* PARTIE SAMUEL */
+    #descriptionnouscontacter {
+        color: red;
+    }
+    /* FIN PARTIE SAMUEL */
 }
 
+
 /* FIN DU CSS DE MAEL */
+
+
 /***********************************************/
 
 
@@ -306,9 +633,11 @@ h2 {
 
 /* Titre */
 
-#contacter{
-    padding-top:3%;
+#contacter {
+    padding-top: 3%;
 }
+
+
 /* LE BLOC DE GAUCHE (Vous êtes) */
 
 .contactus#civilite {
@@ -388,8 +717,8 @@ input {
 /* POUR LE BOUTON PERMETTANT DE VALIDER LE FORMULAIRE */
 
 #boutonvalider {
-    border-radius:10%;
-    width:10%;
+    border-radius: 10%;
+    width: 10%;
     text-align: center;
 }
 
@@ -425,30 +754,57 @@ label span {
     margin-left: 32%;
 }
 
+
+/******* RESPONSIVE DESIGN *********************/
+
+
+/***********************************************/
+
+
 /* LA DIV UTILISEE POUR LE CONTENU A COTE DU MENU */
 
-.body{
-    margin-left:11%;
+.body {
+    margin-left: 11%;
     margin-top: -2%;
-    height:102%;
-    background-color: rgba(189,195,199,1);
+    height: 102%;
+    background-color: rgba(189, 195, 199, 1);
 }
 
-#elephantnantes{
-    width:100%;
-    height:90%;
+#elephantnantes {
+    width: 100%;
+    height: 90%;
 }
-.body p#descriptionnouscontacter{
-    margin-left:35%;
+
+.body p#descriptionnouscontacter {
+    margin-left: 35%;
 }
+
 
 /* DIV POUR LE PIED DE PAGE */
+
 footer {
     text-align: center;
-    height:8.5%;
-    margin-top:8%;
+    height: 8.5%;
+    margin-top: 8%;
     color: white;
     background-color: rgba(10, 10, 10, 0.7)
+}
+
+.logo {
+    margin-left: 70%;
+    margin-top: -5.5%;
+}
+
+.logo img {
+    width:30px;
+    height:30px;
+}
+
+#sponsor {
+    width:50px;
+    height:50px;
+    margin-left: -70%;
+    margin-top: -3%;
 }
 
 
@@ -468,31 +824,38 @@ footer {
 
 .legende1 {
     position: relative;
-    width: 100%;
-    height:111%;
-    margin-left:11%;
+    width:90%;
+    height: 111%;
+    margin-left: 11%;
     opacity: 0.5;
+}
+
+.legende1 img {
+    vertical-align: middle;
+    display: block;
+    margin: 0;
+    padding: 0;
 }
 
 #titrelegende {
     position: absolute;
     top: 20%;
-    margin-left:-3%;
+    margin-left: -3%;
     width: 100%;
 }
 
 #titrelegende2 {
     position: absolute;
     top: 25%;
-    margin-left:-3%;
+    margin-left: -3%;
     width: 100%;
     text-align: center;
 }
 
-#paragraphelegende{
+#paragraphelegende {
     position: absolute;
-    top:30%;
-    margin-left:35%;
+    top: 30%;
+    margin-left: 35%;
     width: 100%;
 }
 
