@@ -1,13 +1,23 @@
-<html>
+<!-- Page réalisé par Samuel Poultier -->
+ <html>
   <head>
     <meta charset="utf-8">
-    <title>"a propos"</title>
-    <link href="../css/cssprojet.css" rel="stylesheet"/>
+    <title>Message envoyé</title>
+    <link href="../css/style.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+    <style>
+        .body{
+            width: 100%;
+        }  
+    </style>
 </head>
-<body>      
-    <? php include('../headerprojet.html') ?>
-    <h1 id="contacter">Merci pour votre message :)</h1>
+<body>
+<header>
+<!--        insertion du header et du menu-->
+        <?php include('headerprojet.html'); ?>
+        <?php include('menu.html');?>
+    <div class="body">
+    <h1 id="contacter">Message envoyé</h1>
     <!-- On utilise une div pour ne pas avoir le texte collé à gauche et caché sous le menu -->
     <div class="reponsecontact">Bonjour 
     <?php
@@ -16,11 +26,12 @@
     }
     echo $prenom; // on affiche le prénom de l'utilisateur.
     ?>
-    <p>, votre message à bien été envoyé, nous répondrons au plus vite. </p>
+    , votre message à bien été envoyé, nous vous répondrons au plus vite. </p>
     </div>
-    <footer>
-        <p> TEST</p>
-    </footer>
+<!--        insertion du footer-->
+        <?php include('footer.html');?>
+</div>
+    </div>
 </body>
 </html>
 
