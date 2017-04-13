@@ -20,8 +20,8 @@
 <!--        insertion du header et du menu-->
         <?php include('../headerprojet.html'); include('../menu.html');?>
 <!--        carrouselle-->
- 
-  <h1 id="contacter">Contactez nous</h1>
+    <img src="../img/contact.png" alt="image pour contact" title="contact"/>
+    <h1 id="contacter">Contactez nous</h1>
        <p id="contactp">Vous voulez profiter de nos services ? Vous avez un projet à réaliser ?<br>N'hésitez pas à nous contacter en remplissant le formulaire ci joint. <br> Vous pouvez également nous contacter par téléphone au 02 47 12 63 19.</p>
         <!-- On donne la même classe pour que les bloc soit sur la même ligne, et un id différent
     pour les espacer avec un margin -->
