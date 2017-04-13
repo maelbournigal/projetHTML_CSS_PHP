@@ -1,3 +1,4 @@
+<!-- Page réalisé par Mael Bournigal -->
 <html>
   <head>
     <meta charset="utf-8">
@@ -20,7 +21,6 @@
           <div class="carouselleapropos" id="equipe">
             <img src="../img/fondcarouselle2.png" alt="fond du carrouselle" title="fondcarrouselle2"/>
             <h1>L'équipe</h1>
-            <p id="equipepres">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             <div id="contributeur">
               <div class="collegue">
                 <img src="../img/maxime.jpg" alt="maxime" title="maxime" /><p class="nom">Maxime Grand</p>
@@ -41,7 +41,8 @@
                 <p class="nom">Mael Bournigal</p>
                 <p class="nom">développeur</p>
               </div>
-            </div>   
+            </div> 
+            <p id="equipepres">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
          <div class="carouselleapropos" id="locau"> 
            <img src="../img/fondcarouselle4.png" alt="fond du carrouselle" title="fondcarrouselle3"/>

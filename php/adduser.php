@@ -1,4 +1,5 @@
- <html>
+ <!-- Page réalisé par Samuel Poultier -->
+<html>
   <head>
     <meta charset="utf-8">
     <title>Message envoyé</title>
