@@ -288,9 +288,12 @@ h2 {
 
 */
 #boutonvalider {
-    border-radius:10%;
+    border-radius:10px;
     width:50%;
     text-align: center;
+    position: relative;
+    left: 25%;
+    margin-top: 1%;
 }
 
 /* QUAND IL Y A UN SPAN DANS UN LABEL */
@@ -301,8 +304,13 @@ label span {
 
 
 /* CSS UTILISEE POUR BIEN POSITIONNER LE MESSAGE CONFIRMANT L'ENVOIE DU MESSAGE */
-
-
+#messagenvoye{
+    margin-top: 5%;
+}
+.reponsecontact{
+ text-align: center; 
+    margin-top: 10%;
+}
 /* LA DIV UTILISEE POUR LE CONTENU A COTE DU MENU */
 
 body{

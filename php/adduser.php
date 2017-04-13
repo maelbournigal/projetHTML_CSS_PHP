@@ -7,7 +7,7 @@
 </head>
 <body>
    <?php include('../headerprojet.html'); include('../menu.html');?>
-    <div>
+    <div id="messagenvoye">
         <h1 id="contacter">Message envoyé</h1>
     <!-- On utilise une div pour ne pas avoir le texte collé à gauche et caché sous le menu -->
         <div class="reponsecontact">Bonjour 
@@ -15,9 +15,9 @@
             if (isset($_POST['prenom'])) {
                $prenom = $_POST['prenom']; /* si le champ prenom est rempli, la variable prenom prend la valeur saisi par l'utilisateur */
             }
-        echo $prenom; // on affiche le prénom de l'utilisateur.
+        echo $prenom.","; // on affiche le prénom de l'utilisateur.
             ?>
-        <p>, votre message à bien été envoyé, nous répondrons au plus vite. </p>
+        <p> votre message à bien été envoyé, nous répondrons au plus vite. </p>
         </div>
     </div>
 </body>
