@@ -1,4 +1,3 @@
-<!-- Page réalisé par Samuel Poultier -->
  <html>
   <head>
     <meta charset="utf-8">
@@ -92,4 +91,3 @@
            }
            $connect->close();    
            }   
-?>

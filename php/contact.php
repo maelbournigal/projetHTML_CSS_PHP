@@ -82,3 +82,4 @@
      <p>Mail: contact@ma2sage.com Téléphone : 02 47 12 63 19</p> 
 </footer>
 </html>
+
