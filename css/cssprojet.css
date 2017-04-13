@@ -324,9 +324,6 @@ img[title='contact']{
     opacity: 0.5;
     z-index: -5;
 }
-body{
-    background-color: grey;
-}
 
 
 /* DIV POUR LE PIED DE PAGE */
@@ -397,7 +394,7 @@ img[title='nosbureaux']{
     border: 1px solid black;
     border-radius:2%;
 }
-#bodyactu{
+#grey, #bodyactu{
   background-color: grey;
 }
 .actu p {
