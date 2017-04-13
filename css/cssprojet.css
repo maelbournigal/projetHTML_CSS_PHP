@@ -196,7 +196,7 @@ figure{
 }
 /*hover ne fonctionne pas*/
 .collegue:hover .nom{
-  color: white;
+  color: transparent;
 }
 .collegue img{
   height: 20%;
