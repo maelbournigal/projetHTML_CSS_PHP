@@ -22,11 +22,10 @@
 <!--        carrouselle-->
  
   <h1 id="contacter">Contactez nous</h1>
-       <p id="contactp">Vous voulez nous contactez pour profiter de nos différentes offres, n'hésitez pas ! </p>
+       <p id="contactp">Vous voulez profiter de nos services ? Vous avez un projet à réaliser ?<br>N'hésitez pas à nous contacter en remplissant le formulaire ci joint. <br> Vous pouvez également nous contacter par téléphone au 02 47 12 63 19.</p>
         <!-- On donne la même classe pour que les bloc soit sur la même ligne, et un id différent
     pour les espacer avec un margin -->
         
-        <h2 class="contactus" id="demandeclient">Votre demande</h2>
 <!-- Création du formulaire de contact -->
     <form method="post" class="formcontact" action="adduser.php">
         <!-- On utilisera des labels pour avoir le texte d'indication du champ au même niveau,
@@ -36,40 +35,41 @@
             <div id="formulairedroite">
                 <h2 class="contactus" id="civilite">Vous êtes</h2>
                 <label for="civilite">Sexe : <span>*</span></label>
-                <select name="sexe" id="sexecss">
+                <select class="inputdroite" name="sexe" id="sexecss">
                    <option value="Homme">Homme</option>
                    <option value="Femme">Femme</option>
                 </select>
                 <br>
                 <br>
-                <label for="nom">Nom : <span>*</span></label>
-                <input type="text" onkeypress="verifierCaracteres(event); return false;" required="required" placeholder="Nom" maxlength="20" class="inline" name="nom"> <!-- On appelle la fonction js, si on tape au clavier sur un caractère interdit, il ne se met pas dans
+                <label class="labedroite" for="nom">Nom : <span>*</span></label>
+                <input class="inputdroite" type="text" onkeypress="verifierCaracteres(event); return false;" required="required" placeholder="Nom" maxlength="20" class="inline" name="nom"> <!-- On appelle la fonction js, si on tape au clavier sur un caractère interdit, il ne se met pas dans
                 le formulaire-->
                 <br>
-                <label for="prenom">Prénom : <span>*</span></label>
-                <input type="text" onkeypress="verifierCaracteres(event); return false;" required="required" placeholder="Prénom" maxlength="20" class="inline" name="prenom">
+                <label class="labedroite" for="prenom">Prénom : <span>*</span></label>
+                <input class="inputdroite" type="text" onkeypress="verifierCaracteres(event); return false;" required="required" placeholder="Prénom" maxlength="20" class="inline" name="prenom">
                 <br>
-                <label for="societe">Société :</label>
-                <input type="text" onkeypress="verifierCaracteres(event); return false;" placeholder="Société" maxlength="20" class="inline" name="societe">
+                <label class="labedroite" for="societe">Société :</label>
+                <input class="inputdroite" type="text" onkeypress="verifierCaracteres(event); return false;" placeholder="Société" maxlength="20" class="inline" name="societe">
                 <br>
-                <label for="adresse">Adresse :</label>
-                <input type="text" onkeypress="verifierCaracteres(event); return false;" placeholder="Adresse" maxlength="50" class="inline" name="adresse">
+                <label class="labedroite" for="adresse">Adresse :</label>
+                <input class="inputdroite" type="text" onkeypress="verifierCaracteres(event); return false;" placeholder="Adresse" maxlength="50" class="inline" name="adresse">
                 <br>
-                <label for="codepostal">Code Postal :</label>
-                <input type="text" onkeypress="verifierCaracteres(event); return false;" placeholder="CP" maxlength="5" class="inline" name="codepostal">
+                <label class="labedroite" for="codepostal">Code Postal :</label>
+                <input class="inputdroite" type="text" onkeypress="verifierCaracteres(event); return false;" placeholder="CP" maxlength="5" class="inline" name="codepostal">
                 <br>
-                <label for="ville">Ville :</label>
-                <input type="text" onkeypress="verifierCaracteres(event); return false;" placeholder="Ville de la société" maxlength="50" class="inline" name="ville">
+                <label class="labedroite" for="ville">Ville :</label>
+                <input class="inputdroite" type="text" onkeypress="verifierCaracteres(event); return false;" placeholder="Ville de la société" maxlength="50" class="inline" name="ville">
                 <br>
-                <label for="mail" required="required">Email : <span>*</span></label>
-                <input type="email" onkeypress="verifierCaracteres(event); return false;" required="required" placeholder="email valide" maxlength="50" class="inline" name="email">
+                <label class="labedroite" for="mail" required="required">Email : <span>*</span></label>
+                <input class="inputdroite" type="email" onkeypress="verifierCaracteres(event); return false;" required="required" placeholder="email valide" maxlength="50" class="inline" name="email">
                 <br>
-                <label for="telephone">Téléphone :</label>
-                <input type="number" onkeypress="verifierCaracteres(event); return false;" placeholder="téléphone pour vous joindre" class="inline" name="telephone">
+                <label class="labedroite" for="telephone">Téléphone :</label>
+                <input class="inputdroite" type="number" onkeypress="verifierCaracteres(event); return false;" placeholder="téléphone pour vous joindre" class="inline" name="telephone">
             </div>
             <div id="formulairemessage">
+                <h2 class="contactus" id="demandeclient">Votre demande</h2>
                 <label for="objet" id="objetdumessage">Objet : <span>*</span></label>
-                <input type="text" onkeypress="verifierCaracteres(event); return false;" required="required" placeholder="Objet" maxlength="30" name="objet"> <br> 
+                <input class="inputdroite" type="text" onkeypress="verifierCaracteres(event); return false;" required="required" placeholder="Objet" maxlength="30" name="objet"> <br> 
                 <!-- <p id="lemessage">Message : <span>*</span> -->
                 <textarea placeholder="Votre message" required="required" onkeypress="verifierCaracteres(event); return false;" maxlength="5000" id="emailformulaire" name="messageduclient"> </textarea>
                 <input type="submit"  value="Valider" id="boutonvalider" />

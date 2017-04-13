@@ -236,61 +236,50 @@ h2 {
 
 #contacter{
     position: relative;
-    top: 4%;
+    top: 9%;
 }
 
 /*paragraphe contact*/
 #contactp{
     text-align: center;
     position: relative;
-    top: 8%;
+    top: 10%;
 }
-
-#demandeclient{
-    position: relative;
-    top: -2%;
-}
-/* LE BLOC DE GAUCHE (Vous êtes) */
 
 
 
 /* LE BLOC DE DROITE (Votre demande) */
 #formulairedroite{
     height: 50%;
+    width: 30%;
+    position: relative;
+    left: 9%;
+    top: 10px;
 
+}
+#formulairemessage{
+    position: relative;
+    top: 10px;
+    width: 30%;
 }
 #formulaire{
     display: flex;
     justify-content: space-around;
-    position: relative;
-    top:20%;
+    padding-top: 5%;
 }
 
-
-
-
-
-/* CSS POUR LES CHAMP UTILISATEUR */
-
-input {
-    width: 60%;
-    display: inline-flex;
+.inputdroite{
+    position: absolute;
+    left: 20%;
+    width: 80%;
 }
-
-
 
 /* CSS POUR LE TEXTAREA OU LE MESSAGE EST SAISIE */
 
 #emailformulaire {
-    width: 290px;
-    height: 200px;
-}
-
-
-/* CSS POUR LES CHAMPS DE RENSEIGNEMENT A GAUCHE, EXCEPTION FAITE DES CHECKBOX */
-
-.inline {
-    display: inline-flex;
+    width: 100%;
+    height: 30%;
+    margin-top: 2%;
 }
 
 
@@ -302,12 +291,6 @@ input {
     border-radius:10%;
     width:50%;
     text-align: center;
-}
-
-
-/* CSS SPECIFIQUE AU TEXTE DANS LES LABLES DONC Civilité,Nom,Prenom...*/
-
-label {
 }
 
 /* QUAND IL Y A UN SPAN DANS UN LABEL */
