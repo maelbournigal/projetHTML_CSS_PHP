@@ -55,7 +55,7 @@ div[id="title"] /* Management of the whole of div "title" */
 /*                                  */
 /************************************/
 
-.reviews /* Management of 2 div or ID = "reviews" (*/
+.reviews /* Management of 2 div or ID = "reviews" */
 {
     height: 40%; /* Bottom margin between #firstblock/#secondblock & #thirdblock/#fourthblock */
     text-align: center; 
