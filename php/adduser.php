@@ -1,30 +1,33 @@
- <!-- Page réalisé par Samuel Poultier -->
-<html>
+<!--SAMUEL POULTIER | RESOLUTION :1920*1080 -->
+ <html>
   <head>
-    <meta charset="utf-8">
-    <title>Message envoyé</title>
-    <link href="../css/cssprojet.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+    <meta charset="utf-8"> <!--encodage permettant de bien lire les accents et caractères spéciaux-->
+    <title>Message envoyé</title> <!--Titre de l'onglet sur le navigateur-->
+    <link href="../css/cssprojet.css" rel="stylesheet"/> <!-- on lie le css à la page-->
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet"> <!--Import de la police Concert One 
+    source: google font-->
 </head>
 <body>
+  <!--On appelle le header et le menu-->
    <?php include('../headerprojet.html'); include('../menu.html');?>
-    <div id="messagenvoye">
+    <div id="messagenvoye"> 
         <h1 id="contacter">Message envoyé</h1>
     <!-- On utilise une div pour ne pas avoir le texte collé à gauche et caché sous le menu -->
         <div class="reponsecontact">Bonjour 
         <?php
             if (isset($_POST['prenom'])) {
-               $prenom = $_POST['prenom']; /* si le champ prenom est rempli, la variable prenom prend la valeur saisi par l'utilisateur */
+               $prenom = $_POST['prenom']; // si le champ prenom est rempli, la variable prenom prend la valeur saisi par l'utilisateur
             }
         echo $prenom.","; // on affiche le prénom de l'utilisateur.
             ?>
-        <p> votre message à bien été envoyé, nous répondrons au plus vite. </p>
+        <p> votre message à bien été envoyé, nous vous répondrons au plus vite. </p>
         </div>
     </div>
 </body>
-<footer>
-     <p> Ma<sup>2</sup>Sage- 3 Rue des Logis - 44430 La Remaudière, France </p>
-     <p>Mail: contact@ma2sage.com Téléphone : 02 47 12 63 19</p> 
+<footer> <!-- pied de page -->
+       <p> Ma<sup>2</sup>Sage- 3 Rue des Logis - 44430 La Remaudière, France
+        <br> Mail: contact@ma2sage.com | Téléphone : 02 47 12 63 19
+        <br> Agence crée le 1<sup>er</sup> Janvier 2017 - ouverture le 27 Avril 2017
 </footer>
 </html>
 
@@ -32,6 +35,9 @@
 
 <?php 
             // Simple quote fait beuger formulaire 
+            // si le champ de l'input "sexe" est rempli, on attribue à la variable du même
+            // nom la valeur du champ rempli par l'utilisateur. On utilise htmlspecialchars pour éviter
+            // la manipulation de code
             if (isset($_POST['sexe'])){
                 $sexe = htmlspecialchars($_POST['sexe']);
             }
