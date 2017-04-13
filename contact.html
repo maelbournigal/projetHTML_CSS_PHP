@@ -1,7 +1,8 @@
-<html>
+<!-- Page réalisé par Samuel Poultier -->
+ <html>
   <head>
     <meta charset="utf-8">
-    <title>"a propos"</title>
+    <title>Contact</title>
     <link href="css/style.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
     <script>
@@ -43,7 +44,9 @@
         
         <!-- Ci dessous on va utiliser des id et classes pour bien
     positionner les élements -->
+       <div class="body">
         <h1 id="contacter">Contactez nous</h1>
+        <p id="descriptionnouscontacter">Vous voulez profiter de nos services ? Vous avez un projet à réaliser ?<br>N'hésitez pas à nous contacter en remplissant le formulaire ci joint. <br> Vous pouvez également nous contacter par téléphone au 02 47 12 63 19.</p>
         <!-- On donne la même classe pour que les bloc soit sur la même ligne, et un id différent
     pour les espacer avec un margin -->
         <h2 class="contactus" id="civilite">Vous êtes</h2>
@@ -88,12 +91,13 @@
         <label for="objet" id="objetdumessage">Objet : <span>*</span></label>
         <input type="text" onkeypress="verifierCaracteres(event); return false;" required="required" placeholder="Objet" maxlength="30" name="objet"> <br> 
         <!-- <p id="lemessage">Message : <span>*</span> -->
-        <textarea placeholder="Votre message" required="required" onkeypress="verifierCaracteres(event); return false;" maxlength="5000" id="emailformulaire" name="messageduclient"> </textarea>
+        <textarea required onkeypress="verifierCaracteres(event); return false;" maxlength="5000" id="emailformulaire" name="messageduclient"> </textarea>
         <input type="submit"  value="Valider" id="boutonvalider" /> </div>
 </form>
- <footer>
-        <p> TEST</p> <p> TEST</p> <p> TEST</p> 
+    <footer>
+     <p> Ma<sup>2</sup>Sage- 3 Rue des Logis - 44430 La Remaudière, France <br> Mail: contact@ma2sage.com | Téléphone : 02 47 12 63 19 </p>
     </footer>
+    </div>
 </body>
 
 </html>

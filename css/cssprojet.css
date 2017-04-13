@@ -214,6 +214,8 @@ img[title='fondcarrouselle3']{
   top: 20%;
   left: 15%;
 }
+
+
 /* SAMUEL,RESOLUTION=1920*1080*/
 
 
@@ -230,77 +232,56 @@ h2 {
 }
 
 
+/* Titre */
+
+#contacter{
+    position: relative;
+    top: 4%;
+}
+
+/*paragraphe contact*/
+#contactp{
+    text-align: center;
+    position: relative;
+    top: 8%;
+}
+
+#demandeclient{
+    position: relative;
+    top: -2%;
+}
 /* LE BLOC DE GAUCHE (Vous êtes) */
 
-.contactus#civilite {
-    margin-top: 5%;
-    margin-right: 50%;
-}
 
 
 /* LE BLOC DE DROITE (Votre demande) */
+#formulairedroite{
+    height: 50%;
 
-.contactus#demandeclient {
-    margin-top: -3%;
-    margin-left: 20%;
+}
+#formulaire{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top:20%;
 }
 
 
-/* LE BLOC POUR LE FORMULAIRE LA OU IL Y A TOUS LES CHAMPS DE CONTACT*/
-
-.formcontact {
-    margin-top: 2%;
-    margin-left: 15%;
-}
 
 
-/* LABEL OBJET */
 
-#objetdumessage {
-    padding-top: 2%;
-}
-
-
-/* LABEL MESSAGE */
-
-p#lemessage {
-    margin-top: 0%;
-}
-
-
-/* LE BLOC POUR LE FORMULAIRE D'ENVOIE DE MESSAGE */
-
-.contactright {
-    margin-top: -20%;
-    margin-left: 45%;
-}
-
-
-/* CSS POUR LES CHAMP UTILISTEUR */
+/* CSS POUR LES CHAMP UTILISATEUR */
 
 input {
-    width: 23%;
-    margin-top: 1%;
-    display: flex;
+    width: 60%;
+    display: inline-flex;
 }
 
-#sexecss {
-    margin-left: 1%;
-}
-
-
-/* CSS POUR LES CHECKBOX DU GENRE DE LA PERSONNE */
-
-.genre {
-    width: 2%;
-    display: inline;
-    border: 2px solid red;
-}
 
 
 /* CSS POUR LE TEXTAREA OU LE MESSAGE EST SAISIE */
 
-.contactright #emailformulaire {
+#emailformulaire {
     width: 290px;
     height: 200px;
 }
@@ -309,36 +290,25 @@ input {
 /* CSS POUR LES CHAMPS DE RENSEIGNEMENT A GAUCHE, EXCEPTION FAITE DES CHECKBOX */
 
 .inline {
-    display: inline;
-    margin-top: 0.5%;
-    margin-left: 1%;
+    display: inline-flex;
 }
 
 
-/* POUR LE BOUTON PERMETTANT DE VALIDER LE FORMULAIRE */
+/*
+ POUR LE BOUTON PERMETTANT DE VALIDER LE FORMULAIRE 
 
+*/
 #boutonvalider {
-    border-radius: 5px;
-    width: 10%;
+    border-radius:10%;
+    width:50%;
+    text-align: center;
 }
 
 
 /* CSS SPECIFIQUE AU TEXTE DANS LES LABLES DONC Civilité,Nom,Prenom...*/
 
 label {
-    display: block;
-    width: 100px;
-    float: left;
-    margin-top: 5px;
 }
-
-
-/* CSS POUR LE LABEL OBJET */
-
-.contactright label {
-    margin-top: -38%;
-}
-
 
 /* QUAND IL Y A UN SPAN DANS UN LABEL */
 
@@ -349,27 +319,25 @@ label span {
 
 /* CSS UTILISEE POUR BIEN POSITIONNER LE MESSAGE CONFIRMANT L'ENVOIE DU MESSAGE */
 
-.reponsecontact {
-    margin-top: 5%;
-    margin-left: 32%;
-}
-
 
 /* LA DIV UTILISEE POUR LE CONTENU A COTE DU MENU */
 
-.fondcontact {
-    background-color: white;
-    margin-top: -22px;
-    height: 1000px;
+body{
+    background-color: rgba(189,195,199,1);
 }
 
+.body p#descriptionnouscontacter{
+}
+
+/* DIV POUR LE PIED DE PAGE */
 footer {
-    margin-left: 11%;
-    width: 100%;
-    height: inherit;
-    margin-top: 11%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 89%;
+    text-align: center;
     color: white;
-    background-color: rgba(10, 10, 10, 0.7)
+    background-color: rgba(10, 10, 10, 0.3);
 }
 
 
@@ -383,31 +351,44 @@ footer {
 
 
 /* PAGE ACCUEIL */
+/*image */
+
+img[title='nosbureaux']{
+    width:100%;
+    height:100%;
+    opacity: 0.5;
+    position: absolute;
+}
 
 
 /* TEXTE PAR DESSUS IMAGE */
 
-.legende1 {
+#legende1{
     position: relative;
-    width: 100%;
-    opacity: 0.7;
+    top: 20%;
 }
 
 #titrelegende {
-    position: absolute;
-    top: 20%;
-    left: 0px;
+    position: relative;
     width: 100%;
+    top: 20%;
 }
 
 #titrelegende2 {
-    position: absolute;
+    position: relative;
     top: 25%;
-    left: 0px;
     width: 100%;
 }
 
+#paragraphelegende{
+    position: relative;
+    top:30%;
+    width: 100%;
+    text-align: center;
+}
 
+
+/************************************************************/
 /************************************************************/
 
 /* responsive */

@@ -1,27 +1,31 @@
-<html>
+<!-- Page réalisé par Samuel Poultier -->
+ <html>
   <head>
     <meta charset="utf-8">
-    <title>"a propos"</title>
+    <title>Message envoyé</title>
     <link href="../css/cssprojet.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
 </head>
-<body>      
-    <? php include('../headerprojet.html') ?>
-    <h1 id="contacter">Merci pour votre message :)</h1>
+<body>
+   <?php include('../headerprojet.html'); include('../menu.html');?>
+    <div>
+        <h1 id="contacter">Message envoyé</h1>
     <!-- On utilise une div pour ne pas avoir le texte collé à gauche et caché sous le menu -->
-    <div class="reponsecontact">Bonjour 
-    <?php
-     if (isset($_POST['prenom'])) {
+        <div class="reponsecontact">Bonjour 
+        <?php
+            if (isset($_POST['prenom'])) {
                $prenom = $_POST['prenom']; /* si le champ prenom est rempli, la variable prenom prend la valeur saisi par l'utilisateur */
-    }
-    echo $prenom; // on affiche le prénom de l'utilisateur.
-    ?>
-    <p>, votre message à bien été envoyé, nous répondrons au plus vite. </p>
+            }
+        echo $prenom; // on affiche le prénom de l'utilisateur.
+            ?>
+        <p>, votre message à bien été envoyé, nous répondrons au plus vite. </p>
+        </div>
     </div>
-    <footer>
-        <p> TEST</p>
-    </footer>
 </body>
+<footer>
+     <p> Ma<sup>2</sup>Sage- 3 Rue des Logis - 44430 La Remaudière, France </p>
+     <p>Mail: contact@ma2sage.com Téléphone : 02 47 12 63 19</p> 
+</footer>
 </html>
 
 <!-- Code php pour envoyer à la base de donnée, les données du formulaire -->
