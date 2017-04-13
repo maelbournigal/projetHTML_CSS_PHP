@@ -5,6 +5,8 @@
     <link href="../css/cssprojet.css" rel="stylesheet"/> <!-- on lie le css à la page-->
     <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet"> <!--Import de la police Concert One 
     source: google font-->
+       <link rel="icon" type="image/png" href="../img/masaje-favicon.png" />
+<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="../img/masaje-favicon.png" /><![endif]-->
     <script>
         // script javascript utilisé pour empêcher la saisi d'une simple quote (lors d'une
       //  tel saisi les donnes ne sont pas envoyés)
@@ -93,6 +95,5 @@
     <p> Ma<sup>2</sup>Sage- 3 Rue des Logis - 44430 La Remaudière, France
         <br> Mail: contact@ma2sage.com | Téléphone : 02 47 12 63 19
         <br> Agence crée le 1<sup>er</sup> Janvier 2017 - ouverture le 27 Avril 2017 </footer>
-</footer>
 </html>
 

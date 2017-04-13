@@ -6,6 +6,8 @@
     <link href="../css/cssprojet.css" rel="stylesheet"/> <!-- on lie le css à la page-->
     <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet"> <!--Import de la police Concert One 
     source: google font-->
+       <link rel="icon" type="image/png" href="../img/masaje-favicon.png" />
+<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="../img/masaje-favicon.png" /><![endif]-->
 </head>
 <body>
   <!--On appelle le header et le menu-->
