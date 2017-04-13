@@ -29,6 +29,7 @@ header #logobloc{
     background-color: rgba(0,0,0,0.4);
     border-right: 2px solid black;
     border-top: 2px solid black;
+    z-index: 20;
 }
 #langue{
     width: 3%;
@@ -70,9 +71,10 @@ nav ul{
   flex-direction: column;
   height: 100%;
   width: 100%;
-  margin-left:0;
+  margin:0;
   padding:0;
 }
+
 nav li{
   text-align: center;
     color: white;
@@ -87,7 +89,7 @@ nav li{
                                         /*svg icone menu */
 .icones{
     display: inline-flex;
-    width: 60%;
+    width: 100%;
     height: 10%;
     align-self: center;
 }
