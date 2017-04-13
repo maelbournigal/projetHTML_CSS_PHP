@@ -389,7 +389,6 @@ img[title='nosbureaux']{
 
 /*css actu fait par samuel*/
 /* ACTU */
-
 .actu {
     position: relative;
     display: flex;
@@ -398,7 +397,9 @@ img[title='nosbureaux']{
     border: 1px solid black;
     border-radius:2%;
 }
-
+#bodyactu{
+  background-color: grey;
+}
 .actu p {
     padding-top: 2%;
 }

@@ -4,24 +4,12 @@
     <meta charset="utf-8">
     <title>Contact</title>
     <link href="css/cssprojet.css" rel="stylesheet"/>
-    <link href="css/actu.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
-    <script>
-        function verifierCaracteres(event) {
-            var keyCode = event.which ? event.which : event.keyCode;
-            var touche = String.fromCharCode(keyCode);
-            var champ = document.getElementById('mon_input');
-            var caracteres = "'&"; // liste des caractères interdits 
-            if (caracteres.indexOf(touche) == -1) {
-                champ.value += touche;
-            }
-        }
-    </script>
 </head>
-<body>
+<body id="bodyactu">
 <header>
             <div id="logobloc">
-                <img src="logo.png" alt="logo_entreprise" title="logo"/>
+                <img src="img/logo.png" alt="logo_entreprise" title="logo"/>
                 <p id="nom_entreprise_logo">Ma²saje</p>
             </div>
             <div id="langue">
