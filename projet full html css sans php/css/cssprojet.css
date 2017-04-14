@@ -553,6 +553,126 @@ h1{
   left: 25%;
   
 }
+/**********************************************/
+/*                                            */
+/*                 JÉRÉMY NUNES               */
+/*            Résolution : 1366*768           */
+/*                                            */
+/**********************************************/
+
+/********************************************/
+/*                                          */
+/*      INSERT BACKGROUND & COMMON CODE     */
+/*                                          */
+/********************************************/
+body
+{
+    background: url('background_references.jpg') no-repeat;
+    background-size: 100% 100%; /* The background takes all the space in height and width */
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+section[id="references"]
+{
+    width: 100%;
+}
+
+/************************/
+/*                      */
+/*     TITLE OF PAGE    */
+/*                      */
+/************************/
+
+div[id="title"] /* Management of the whole of div "title" */
+{
+    text-align: center;
+    color: black;
+}
+
+#title h2
+{
+    font-family: 'Concert One', cursive;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+#title p
+{
+    margin-top: -1%;
+    font-family: 'Concert One', cursive;
+    font-size: 1.2em;
+}
+
+/************************************/
+/*                                  */
+/*        Category : 1-2 & 3-4      */
+/*                                  */
+/************************************/
+
+.reviews /* Management of 2 div or ID = "reviews" */
+{
+    height: 40%; /* Bottom margin between #firstblock/#secondblock & #thirdblock/#fourthblock */
+    text-align: center; 
+    margin-left: 10%; /* Margin left & right to regulate the size of the border */
+    margin-right: 10%;
+    display: flex; /* For not to break the design */
+}
+
+/* Margin between each bloks for the espacement */
+#firstblock, #secondblock, #thirdblock, #fourthblock
+{
+    margin: 2%;
+}
+
+/* Manages the whole of each block "reviews" 1 by 1 */
+.category
+{
+    width: 1200px;
+    height: 220px;
+    overflow: hidden; /* Prevents text overflow (Makes it disappear) */
+    font-family: "Comic sans MS", 'Arial', 'Verdana';
+    font-size: 0.8em;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+/* Pictures of each bloks */
+.category img
+{
+    float: left;
+    border: 1px solid black;
+    border-bottom-right-radius: 20px;
+}
+
+/* Changing the visual and placing the user name */
+.category h3
+{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: "Trebuchet MS", 'Arial', 'Verdana';
+    font-size: 1.2em;
+    float: left; /* To place the user name correctly compared to the image */
+    padding-left: 10%; /* Shifting the name of the user compared from his image */
+}
+
+.category p
+{
+    padding-right: 2%; /* Padding right & left for placing the paragraph more correctly in the block (With spacing) */
+    padding-left: 2%;
+    float: left;
+    text-align: justify; /* For an organized text */
+    color: black;
+    font-size: 0.85em;
+}
+
+/**********************************************/
+/*                                            */
+/*                JÉRÉMY NUNES                */
+/*          END OF WORK OF THIS PART          */
+/*                                            */
+/**********************************************/
+
 /************************************************************/
 /************************************************************/
 

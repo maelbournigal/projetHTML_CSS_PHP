@@ -42,13 +42,13 @@
         <!-- JÉRÉMY NUNES : End of work for this part --> 
      <div id="our_services">
          
-            <h1 id="services">Nos services</h1>
-            <div id="servicesvig">
+            <h1 id="services">Nos services</h1><!-- Titre du thème de la page -->
+            <div id="servicesvig"> <!-- Création de la div pour exposer les services proposés par l'agence -->
                 
-                <div class="lien_vignette" id="computer">
+                <div class="lien_vignette" id="computer">  <!-- création d'un div pour un des service proposé -->
                     <svg class="svgservices" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve"><g><path d="M90.449,71.013H9.552c-0.796,0-1.439-0.639-1.439-1.429V24.428C8.113,23.639,8.756,23,9.552,23h80.897   c0.796,0,1.439,0.639,1.439,1.428v45.156C91.889,70.374,91.245,71.013,90.449,71.013z M10.992,68.156H89.01V25.857H10.992V68.156z"/></g><g><path d="M82.468,71.013H17.532c-0.796,0-1.439-0.639-1.439-1.429V33.339c0-0.79,0.644-1.429,1.439-1.429h64.936   c0.796,0,1.439,0.639,1.439,1.429v36.245C83.907,70.374,83.264,71.013,82.468,71.013z M18.972,68.156h62.057V34.768H18.972V68.156z   "/></g><g><path d="M90.042,77H9.958C5.846,77,2.5,73.68,2.5,69.599c0-0.789,0.644-1.428,1.439-1.428h92.121c0.796,0,1.439,0.639,1.439,1.428   C97.5,73.68,94.154,77,90.042,77z M5.611,71.026c0.604,1.809,2.325,3.117,4.348,3.117h80.083c2.021,0,3.741-1.309,4.349-3.117   H5.611z"/></g><g><path d="M51.32,30.313H48.68c-0.795,0-1.439-0.639-1.439-1.429c0-0.789,0.645-1.428,1.439-1.428h2.641   c0.795,0,1.439,0.639,1.439,1.428C52.76,29.673,52.115,30.313,51.32,30.313z"/></g><g><path d="M59.646,41.89l-6.974-1.855l-5.106,5.069l1.14,4.213L39.2,58.749c-0.954,0.948-0.954,2.482,0,3.432   c0.954,0.945,2.502,0.945,3.457,0l9.505-9.433l4.245,1.13l5.108-5.066L59.646,41.89z M55.227,49.498l-2.562-0.681l-0.686-2.542   l1.875-1.861l2.561,0.681l0.687,2.542L55.227,49.498z"/></g></svg>  
-                    <h2>Création d'un site web</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo mi, sodales vitae purus eu, cursus blandit leo. Aenean semper fringilla erat sagittis egestas.</p>
+                    <h2>Création d'un site web</h2><!-- Titre du service proposé -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo mi, sodales vitae purus eu, cursus blandit leo. Aenean semper fringilla erat sagittis egestas.</p> <!-- Description du service proposé --> 
                 </div>
                 
                 <div class="lien_vignette" id="phone">
@@ -71,5 +71,6 @@
             </div>
         </div>
     </body>
+  <!-- Insertion du footer -->
 <?php include('../footer.html') ?>
 </html>
