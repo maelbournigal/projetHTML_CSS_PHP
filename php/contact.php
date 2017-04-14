@@ -20,7 +20,7 @@
 <body>
 <!--        insertion du header et du menu-->
         <?php include('../headerprojet.html'); include('../menu.html');?>
-<!--        carrouselle-->
+    <div id="colortextcontact">
     <img src="../img/contact.png" alt="image pour contact" title="contact"/>
     <h1 id="contacter">Contactez nous</h1>
        <p id="contactp">Vous voulez profiter de nos services ? Vous avez un projet à réaliser ?<br>N'hésitez pas à nous contacter en remplissant le formulaire ci joint. <br> Vous pouvez également nous contacter par téléphone au 02 47 12 63 19.</p>
@@ -77,6 +77,7 @@
             </div> 
         </div>
     </form>
+  </div>
 </body>
 <footer>
      <p> Ma<sup>2</sup>Sage- 3 Rue des Logis - 44430 La Remaudière, France </p>

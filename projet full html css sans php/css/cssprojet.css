@@ -65,7 +65,6 @@ nav{
     bottom: 0;
     position: absolute;
     z-index: 10;
-    
 }
 nav ul{
   list-style: none;  
@@ -251,9 +250,7 @@ h2 {
     position: relative;
     top: 10%;
 }
-#colortextcontact{
-  color: black;
-}
+
 
 
 /* LE BLOC DE DROITE (Votre demande) */
@@ -448,6 +445,7 @@ img[title='nosbureaux']{
 {
 	width: 100%;
 	text-align: center;
+	margin-top: -2%;
 }
 
 #title_ref h1
@@ -534,7 +532,7 @@ body
   text-align: center;
 }
 
-#services{
+h1{
   padding-top: 2%;
   color: black;
 }
