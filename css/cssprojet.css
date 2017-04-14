@@ -6,66 +6,62 @@ a {background-color: transparent; text-decoration: none;color: white;}
 a:hover,a:active {outline: 0;}
 
 /*///////////////////////////////////////////////header ////////////////////////////////////////////////////*/
-header{
-    display: flex;
-}
+header{display: flex;}
+
 img[title="logo"]{
-    width: 80%;
-    height: 60%;
-    position: absolute;
-    top: 10%;
-    left:10%;
+  width: 80%;
+  height: 60%;
+  position: absolute;
+  top: 10%;
+  left:10%;
 }
 #nom_entreprise_logo{
-    position: absolute;
-    top: 70%;
-    left: 32%;
-    color: white;
+  position: absolute;
+  top: 70%;
+  left: 32%;
+  color: white;
 }
 header #logobloc{
-    width: 9%;
-    height: 20%;
-    position: absolute;
-    background-color: rgba(0,0,0,0.4);
-    border-right: 2px solid black;
-    border-top: 2px solid black;
-    z-index: 20;
+  width: 9%;
+  height: 20%;
+  position: absolute;
+  background-color: rgba(0,0,0,0.4);
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  z-index: 20;
 }
 #langue{
-    width: 3%;
-    height: 10%;
-    position: absolute;
-    right: 2%;
-    z-index: 20;
+  width: 3%;
+  height: 10%;
+  position: absolute;
+  right: 2%;
+  z-index: 20;
 }
 #flagenglish{
-    position: absolute;
-    top: 35%;
-    right: 0%;
-    opacity: 0;
-    z-index: 500;
+  position: absolute;
+  top: 35%;
+  right: 0%;
+  opacity: 0;
+  z-index: 500;
 }
-header ul{
-    list-style-type: none;
-}
-#langue:hover #flagenglish{
-    opacity: 1;
-}
+header ul{list-style-type: none;}
+
+#langue:hover #flagenglish{opacity: 1;}
+
 /*////////////////////////////////////////////////Nav //////////////////////////////////////////////////////*/
 nav{
-    display: flex;
-    flex-direction: column;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
-    height: 80%;
-    width: 9%;
-    position:fixed;
-    background-color: rgba(0,0,0,0.4) ;
-    bottom: 0;
-    position: absolute;
-    z-index: 10;
-    
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  height: 80%;
+  width: 9%;
+  background-color: rgba(0,0,0,0.4) ;
+  bottom: 0;
+  position: absolute;
+  z-index: 100;
 }
 nav ul{
   list-style: none;  
@@ -79,46 +75,45 @@ nav ul{
 
 nav li{
   text-align: center;
-    color: white;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  }
 .menutext{
   display: inline-flex;
 }
-                                        /*svg icone menu */
+                                  /*svg icone menu */
 .icones{
-    display: inline-flex;
-    width: 100%;
-    height: 10%;
-    align-self: center;
+  display: inline-flex;
+  width: 100%;
+  height: 10%;
+  align-self: center;
 }
 
 /*///////////////////////////////////////////Carrousel  ////////////////////////////////////////////////////*/
 div#aproposcarrousel{
-    width: 100%;
-    min-width: 1000px;
-    position: absolute;
-    left: 0%;
-    overflow: hidden;
-    height: 100%;
+  width: 100%;
+  min-width: 1000px;
+  position: absolute;
+  left: 0%;
+  overflow: hidden;
+  height: 100%;
 }
 div#aproposcarrousel figure{
-    width: 304%;
-    position: relative;
-    padding: 0;
-    left:0;
-    height: 100%;
-    text-align: left;
-    margin: 0;
-    animation: 30s slidy infinite;
-    display: flex;
-    
+  width: 304%;
+  position: relative;
+  padding: 0;
+  left:0;
+  height: 100%;
+  text-align: left;
+  margin: 0;
+  animation: 30s slidy infinite;
+  display: flex;
 }
 div#aproposcarrousel figure div{
-    width: 33%;height: auto;min-width: 100px;
+  width: 33%;height: auto;min-width: 100px;
 }
 @keyframes slidy {
   0% { left: 0%; }
@@ -127,14 +122,13 @@ div#aproposcarrousel figure div{
   65% { left: -100%; }
   70% { left: -200%; }
   100% { left: -200%; }
-
 }
 .carouselleapropos{
-    text-align: center;
+  text-align: center;
 }
 .carouselleapropos h1{
-    position: relative;
-    top: 10%;
+  position: relative;
+  top: 10%;
 }
 img[title='fondcarrouselle1']{
   z-index: -7;
@@ -153,7 +147,7 @@ img[title='fondcarrouselle2']{
   top: 0%;
   width: 33.9%;
   height: 100%;
-}
+  }
 img[title='fondcarrouselle3']{
   z-index: -7;
   opacity: 0.5;
@@ -168,11 +162,10 @@ img[title='fondcarrouselle3']{
   top: 30%;
   width: 80%;
   left: 11%;
-
 }
 figure{
-    background-color: black;
-    z-index: -50;
+  background-color: black;
+  z-index: -50;
 }
 
 /*carrouselle deuxieme page*/
@@ -194,7 +187,7 @@ figure{
   color: white;
   position: relative;
   top: -40px;
-}
+  }
 /*hover ne fonctionne pas*/
 .collegue:hover .nom{
   color: transparent;
@@ -228,120 +221,120 @@ figure{
 /* FORMULAIRE DE CONTACT */
 
 h1 {
-    text-transform: uppercase;
-    /* Transforme le texte en majuscules */
-    text-align: center;
+text-transform: uppercase;
+/* Transforme le texte en majuscules */
+text-align: center;
 }
 
 h2 {
-    text-align: center;
+text-align: center;
 }
 
 
 /* Titre */
 
 #contacter{
-    position: relative;
-    top: 9%;
+position: relative;
+top: 9%;
 }
 
 /*paragraphe contact*/
 #contactp{
-    text-align: center;
-    position: relative;
-    top: 10%;
+text-align: center;
+position: relative;
+top: 10%;
 }
 #colortextcontact{
-  color: black;
+color: black;
 }
 
 
 /* LE BLOC DE DROITE (Votre demande) */
 #formulairedroite{
-    height: 50%;
-    width: 30%;
-    position: relative;
-    left: 9%;
-    top: 10px;
+height: 50%;
+width: 30%;
+position: relative;
+left: 9%;
+top: 10px;
 
 }
 #formulairemessage{
-    position: relative;
-    top: 10px;
-    width: 30%;
+position: relative;
+top: 10px;
+width: 30%;
 }
 #formulaire{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 5%;
+display: flex;
+justify-content: space-around;
+padding-top: 5%;
 }
 
 .inputdroite{
-    position: absolute;
-    left: 20%;
-    width: 80%;
+position: absolute;
+left: 20%;
+width: 80%;
 }
 
 /* CSS POUR LE TEXTAREA OU LE MESSAGE EST SAISIE */
 
 #emailformulaire {
-    width: 100%;
-    height: 30%;
-    margin-top: 2%;
+width: 100%;
+height: 30%;
+margin-top: 2%;
 }
 
 
 /*
- POUR LE BOUTON PERMETTANT DE VALIDER LE FORMULAIRE 
+POUR LE BOUTON PERMETTANT DE VALIDER LE FORMULAIRE 
 
 */
 #boutonvalider {
-    border-radius:10px;
-    width:50%;
-    text-align: center;
-    position: relative;
-    left: 25%;
-    margin-top: 1%;
+border-radius:10px;
+width:50%;
+text-align: center;
+position: relative;
+left: 25%;
+margin-top: 1%;
 }
 
 /* QUAND IL Y A UN SPAN DANS UN LABEL */
 
 label span {
-    color: red;
+color: red;
 }
 
 
 /* CSS UTILISEE POUR BIEN POSITIONNER LE MESSAGE CONFIRMANT L'ENVOIE DU MESSAGE */
 #messagenvoye{
-    margin-top: 5%;
+margin-top: 5%;
 }
 .reponsecontact{
- text-align: center; 
-    margin-top: 10%;
+text-align: center; 
+margin-top: 10%;
 }
 /* LA DIV UTILISEE POUR LE CONTENU A COTE DU MENU */
 img[title='contact']{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    opacity: 0.5;
-    z-index: -5;
-    padding: 0;
-    margin-top: -1.5%;
+width: 100%;
+height: 100%;
+position: absolute;
+opacity: 0.5;
+z-index: -5;
+padding: 0;
+margin-top: -1.5%;
 }
 
 
 /* DIV POUR LE PIED DE PAGE */
 footer {
-    position: relative;
-    bottom: -40px;
-    right: 0;
-    width: 89%;
-    left: 11%;
-    text-align: center;
-    color: white;
-    background-color: rgba(10, 10, 10, 0.5);
-    padding: 0;
+position: relative;
+bottom: -40px;
+right: 0;
+width: 89%;
+left: 11%;
+text-align: center;
+color: white;
+background-color: rgba(10, 10, 10, 0.5);
+padding: 0;
 }
 
 
@@ -358,81 +351,81 @@ footer {
 /*image */
 
 img[title='nosbureaux']{
-    width:100%;
-    height:100%;
-    opacity: 0.5;
-    position: absolute;
+width:100%;
+height:100%;
+opacity: 0.5;
+position: absolute;
 }
 
 
 /* TEXTE PAR DESSUS IMAGE */
 
 #legende1{
-    position: relative;
-    top: 20%;
+position: relative;
+top: 20%;
 }
 
 #titrelegende {
-    position: relative;
-    width: 100%;
-    top: 20%;
+position: relative;
+width: 100%;
+top: 20%;
 }
 
 #titrelegende2 {
-    position: relative;
-    top: 25%;
-    width: 100%;
+position: relative;
+top: 25%;
+width: 100%;
 }
 
 #paragraphelegende{
-    position: relative;
-    top:30%;
-    width: 100%;
-    text-align: center;
+position: relative;
+top:30%;
+width: 100%;
+text-align: center;
 }
 
 /*css actu fait par samuel*/
 /* ACTU */
 .actu {
-    position: relative;
-    display: flex;
-    margin-left: 15%;
-    margin-right: 5%;
-    border: 1px solid black;
-    border-radius:2%;
+position: relative;
+display: flex;
+margin-left: 15%;
+margin-right: 5%;
+border: 1px solid black;
+border-radius:2%;
 }
 #grey, #bodyactu{
-  background-color: grey;
+background-color: grey;
 }
 .actu p {
-    padding-top: 2%;
+padding-top: 2%;
 }
 
 .actu .titleactu {
-    color: blue;
-    width: 100%;
-    padding-left: 1%;
+color: blue;
+width: 100%;
+padding-left: 1%;
 }
 
 .actu .imgactu {
-    width:30%;
-    height:15%;
-    display:block;
-    float: left;
-    margin-left: 2%;
-    margin-top: 2%;
+width:30%;
+height:15%;
+display:block;
+float: left;
+margin-left: 2%;
+margin-top: 2%;
 }
 
 #news1 {
-    margin-top:2%;
+margin-top:2%;
 }
 
 #news2 {
-    margin-top:2%;
+margin-top:2%;
 }
 
 #news3 {
-    margin-top:2%;
+margin-top:2%;
 }
 
 /**********************************************/
@@ -450,29 +443,29 @@ img[title='nosbureaux']{
 /************************/
 #title_ref
 {
-	width: 100%;
-	text-align: center;
+width: 100%;
+text-align: center;
 }
 
 #title_ref h1
 {
-	font-family: 'Concert One', cursive;
-	color: black;
-	font-size: 2.5em;
+font-family: 'Concert One', cursive;
+color: black;
+font-size: 2.5em;
 }
 
 #title_ref p
 {
-	font-family: 'Concert One', cursive;
-	color: black;
-	font-size: 1.1em;
+font-family: 'Concert One', cursive;
+color: black;
+font-size: 1.1em;
 }
 
 /* INSERT BACKGROUND */
 body
 {
-	background: url('background_services.jpg') no-repeat;
-	background-size: 100% 100%;
+background: url('background_services.jpg') no-repeat;
+background-size: 100% 100%;
 }
 
 /************************/
@@ -482,27 +475,27 @@ body
 /************************/
 #wrapper
 {
-	margin-top: 4%;
-	margin-left: 20%;
-	width: 1000px;
-	-webkit-perspective: 3000; /* -webkit-perspective : Defines how many pixels a 3D element is placed relative to the view */
+margin-top: 4%;
+margin-left: 20%;
+width: 1000px;
+-webkit-perspective: 3000; /* -webkit-perspective : Defines how many pixels a 3D element is placed relative to the view */
 }
 
 #plan
 {
-	width: 450px; /* 450*250 for the pictures, /!\ IF PROBLEM : I add 2px to width & height for see the border (to #plan & .plan) /!\ */
-	height: 250px;
-	margin: 0 auto;
-	-webkit-transform-style: preserve-3d; /* Adds 3D and removes the flat mode */
-	-webkit-animation: Carrousel 40s infinite linear reverse; /* Setting up the animation style */
+width: 450px; /* 450*250 for the pictures, /!\ IF PROBLEM : I add 2px to width & height for see the border (to #plan & .plan) /!\ */
+height: 250px;
+margin: 0 auto;
+-webkit-transform-style: preserve-3d; /* Adds 3D and removes the flat mode */
+-webkit-animation: Carrousel 40s infinite linear reverse; /* Setting up the animation style */
 }
 
 .plan
 {
-	position: absolute; /* To allow the carousel to function correctly, otherwise the design is broken */
-	width: 450px;
-	height: 250px;
-	border: 1px solid black;
+position: absolute; /* To allow the carousel to function correctly, otherwise the design is broken */
+width: 450px;
+height: 250px;
+border: 1px solid black;
 }
 
 #plan .p1 { -webkit-transform: translateZ(545px); } /* translateZ : Defines a 3D translation, using only the value for the Z-axis */
@@ -517,47 +510,50 @@ body
 
 @keyframes Carrousel
 {
-	from { -webkit-transform: rotateY(0); } /* Starting Y-axis from 0 */
-	to { -webkit-transform: rotateY(360deg); } /* End on the Y-axis at 360 */
+from { -webkit-transform: rotateY(0); } /* Starting Y-axis from 0 */
+to { -webkit-transform: rotateY(360deg); } /* End on the Y-axis at 360 */
 }
 
 /* Maxime GRAND css */
 
 .lien_vignette{
-    color: black; 
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    border: black solid 1px;
-    margin: 1%;
-    height: 50%;
-    width: 14%;
-    padding: 1%;
-    position: relative;
-    left: 19%;
-  text-align: center;
+color: black; 
+background-color: white;
+display: flex;
+flex-direction: column;
+border: black solid 1px;
+margin: 1%;
+height: 50%;
+width: 14%;
+padding: 1%;
+position: relative;
+left: 19%;
+text-align: center;
 }
 
 h1{ 
-  padding-top: 2%; /* positionnement du titre du thème de la page */
-  color: black; /* couleur du titre du thème de la page */
+padding-top: 2%; /* positionnement du titre du thème de la page */
+color: black; /* couleur du titre du thème de la page */
 }
 
 .lien_vignette:hover{
-    border-color: deepskyblue;  /* cadres des services colorés en bleu au passage de la souris sur/dans ceux-ci */
+border-color: deepskyblue;  /* cadres des services colorés en bleu au passage de la souris sur/dans ceux-ci */
 }
 .lien_vignette:hover h2 {
-    color: deepskyblue; /* titres des services colorés en bleu au passage de la souris sur ceux-ci */
+color: deepskyblue; /* titres des services colorés en bleu au passage de la souris sur ceux-ci */
 }
 
 #servicesvig{
-  display: flex; 
+display: flex; 
 }
 .svgservices{ /* posionnement des images SVG dans les cadres */
-  width: 50%;
-  position: relative;
-  left: 25%;
-  
+width: 50%;
+position: relative;
+left: 25%;
+}
+.svgservices2{
+  width: 20%;
+  left: 40%;
 }
 /************************************************************/
 /************************************************************/
@@ -568,18 +564,18 @@ h1{
 /* responsive (mael bournigal) */
 @media screen and (min-width: 1601px) and (max-width:1920px)
 {
-    nav{width: 9%;}
-    img[title="logo"]{height: 8%;top:3%;}
+nav{width: 9%;}
+img[title="logo"]{height: 8%;top:3%;}
 }
 @media screen and (min-width: 1200px) and (max-width:1599px){
-    nav{width: 11%;}
-    header #logobloc{width: 11%;}
+nav{width: 11%;}
+header #logobloc{width: 11%;}
 }
 @media screen and (min-width: 700px) and (max-width:1199px){
-    nav{width: 13%;}
-    header #logobloc{width: 13%;}
+nav{width: 13%;}
+header #logobloc{width: 13%;}
 }
 @media screen and (min-width: 350px) and (max-width:699px){
-    nav{width: 15%;}
-    header #logobloc{width: 15%;}
+nav{width: 15%;}
+header #logobloc{width: 15%;}
 }
