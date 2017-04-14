@@ -1,3 +1,7 @@
+    <!-- MAXIME GRAND
+
+             Résolution : 1920*1080 -->
+
 <html>
     
   <head>
@@ -31,12 +35,10 @@
     ?>
 	<li>
         
-    <?php 
-        echo $title['titres'];
-        echo $story['histoires'];
-        echo $author['auteurs'];
-        echo $picture['images'];
-    ?>
+    <h2><?php  echo $title['titres']; ?></h2>
+    <p><?php echo $story['histoires']; ?></p>
+    <p><?php echo $author['auteurs']; ?></p>
+    <img src="<?php echo $picture['images']; ?>" class="imgactu">
         
     </li>
     <?php } 
@@ -44,5 +46,5 @@
     </ul>
     </div>
     </body>
-
 </html>
+ <!-- MAXIME GRAND : End of work for this part --> 

@@ -567,7 +567,7 @@ h1{
 /********************************************/
 body
 {
-    background: url('background_references.jpg') no-repeat;
+    background: url('img/background_references.jpg') no-repeat;
     background-size: 100% 100%; /* The background takes all the space in height and width */
     margin: 0 auto;
     padding: 0 auto;
@@ -575,6 +575,7 @@ body
 
 section[id="references"]
 {
+  color: black;
     width: 100%;
 }
 

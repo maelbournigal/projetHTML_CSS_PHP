@@ -92,9 +92,5 @@
     </form>
   </div>
 </body>
-<footer> <!--Pied de page-->
-    <p> Ma<sup>2</sup>Sage- 3 Rue des Logis - 44430 La Remaudière, France
-        <br> Mail: contact@ma2sage.com | Téléphone : 02 47 12 63 19
-        <br> Agence crée le 1<sup>er</sup> Janvier 2017 - ouverture le 27 Avril 2017 </footer>
 </html>
 

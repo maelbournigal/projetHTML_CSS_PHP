@@ -8,8 +8,7 @@
     </head>
     <body>
         <?php  include('../headerprojet.html');
-      include('../menu.html');
-      include('../footer.html')?>
+      include('../menu.html');?>
         <!-- JÉRÉMY NUNES
 
              Résolution : 1366*768 -->
@@ -24,7 +23,7 @@
                 <div class="reviews"> <!-- Contains 4 references : 2 by 2 -->
 
                     <div class="category" id="firstblock">             
-                        <img src="Images_References/marie_pic.png" width="50" height="50" alt="Avis_Ma²SaJe"> <!-- User picture -->
+                        <img src="../img/marie_pic.png" width="50" height="50" alt="Avis_Ma²SaJe"> <!-- User picture -->
 
                         <h3> Marie Klume </h3> <!-- User name -->
 
@@ -36,7 +35,7 @@
                     </div>
 
                     <div class="category" id="secondblock">
-                        <img src="Images_References/millenium_hotel.jpg" width="50" height="50" alt="Avis_Ma²SaJe">
+                        <img src="../img/millenium_hotel.jpg" width="50" height="50" alt="Avis_Ma²SaJe">
 
                         <h3> Millenium Hôtel </h3>
 
@@ -51,7 +50,7 @@
                 <div class="reviews"> <!-- Contains 4 references : 2 by 2 -->
 
                     <div class="category" id="thirdblock">
-                        <img src="Images_References/moon_event.jpeg" width="60" height="60" alt="Avis_Ma²SaJe">
+                        <img src="../img/moon_event.jpeg" width="60" height="60" alt="Avis_Ma²SaJe">
 
                         <h3> Moon Event </h3>
 
@@ -61,7 +60,7 @@
                     </div>
 
                     <div class="category" id="fourthblock">
-                        <img src="Images_References/paul_pic.png" width="50" height="50" alt="Avis_Ma²SaJe">
+                        <img src="../img/paul_pic.png" width="50" height="50" alt="Avis_Ma²SaJe">
 
                         <h3> Paul Padluque </h3>
 

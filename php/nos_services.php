@@ -71,6 +71,4 @@
             </div>
         </div>
     </body>
-  <!-- Insertion du footer -->
-<?php include('../footer.html') ?>
 </html>
