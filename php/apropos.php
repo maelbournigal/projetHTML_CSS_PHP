@@ -1,10 +1,11 @@
-<!-- Page réalisé par Mael Bournigal -->
 <html>
   <head>
     <meta charset="utf-8">
     <title>"a propos"</title>
     <link href="../css/cssprojet.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+       <link rel="icon" type="image/png" href="../img/masaje-favicon.png" />
+<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="../img/masaje-favicon.png" /><![endif]-->
   </head>
   <body>
 <!--        insertion du header et du menu-->
