@@ -326,18 +326,22 @@ img[title='contact']{
     position: absolute;
     opacity: 0.5;
     z-index: -5;
+    padding: 0;
+    margin-top: -1.5%;
 }
 
 
 /* DIV POUR LE PIED DE PAGE */
 footer {
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: -40px;
     right: 0;
     width: 89%;
+    left: 11%;
     text-align: center;
     color: white;
     background-color: rgba(10, 10, 10, 0.5);
+    padding: 0;
 }
 
 
@@ -517,10 +521,10 @@ body
 	to { -webkit-transform: rotateY(360deg); } /* End on the Y-axis at 360 */
 }
 
-/*maxime css*/
+/* Maxime GRAND css */
 
 .lien_vignette{
-    color: black;
+    color: black; 
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -534,27 +538,30 @@ body
   text-align: center;
 }
 
-#services{
-  padding-top: 2%;
-  color: black;
+h1{ 
+  padding-top: 2%; /* positionnement du titre du thème de la page */
+  color: black; /* couleur du titre du thème de la page */
 }
 
 .lien_vignette:hover{
-    border-color: deepskyblue;
+    border-color: deepskyblue;  /* cadres des services colorés en bleu au passage de la souris sur/dans ceux-ci */
 }
 .lien_vignette:hover h2 {
-    color: deepskyblue;
+    color: deepskyblue; /* titres des services colorés en bleu au passage de la souris sur ceux-ci */
 }
 
 #servicesvig{
-  display: flex;
+  display: flex; 
 }
-.svgservices{
+.svgservices{ /* posionnement des images SVG dans les cadres */
   width: 50%;
   position: relative;
   left: 25%;
   
 }
+/************************************************************/
+/************************************************************/
+
 /************************************************************/
 /************************************************************/
 
