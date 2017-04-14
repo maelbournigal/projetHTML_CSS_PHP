@@ -13,10 +13,10 @@
     
   <body>
       
-    <!--        insertion du header et du menu-->
+    <!-- insertion du header et du menu -->
     <?php include('../headerprojet.html');
         include('../menu.html');
-      
+    // établissement de la connexion à la base de données avec gestion des erreurs
     Try {
         $bdd = new PDO('mysql:host=localhost;dbname=ma2sage;charset=utf8', 'root', '');
     }
@@ -26,20 +26,22 @@
 
     ?>
     <div id="colortextactu">
-    <p> Actualités : </p>
+        <h1> Actualités : </h1> <!-- Titre du thème de la page -->
     <ul>
     <?php
-        $result=$bdd->query('SELECT * FROM actu');
-        
+        // requête dans la base de données actu toutes les informations
+        $result=$bdd->query('SELECT * FROM actualites');
+        // utilisation de la fonction fetch pour gérer le résultat de l'instruction sql
         while ($data= $result->fetch()) { 
     ?>
 	<li>
-        
-    <h2><?php  echo $title['titres']; ?></h2>
-    <p><?php echo $story['histoires']; ?></p>
-    <p><?php echo $author['auteurs']; ?></p>
-    <img src="<?php echo $picture['images']; ?>" class="imgactu">
-        
+    <!--retourne des variables en leur associants/triants leurs valeurs par colonne-->
+        <div class="actu">
+        <img src="../img/<?php echo $data['pictures']; ?>" class="imgactu">
+        <h2 class="titleactu"><?php  echo $data['titres']; ?></h2>
+        <p class="article"><?php echo $data['histoires']; ?></p>
+        <p class="auteur"><?php echo $data['auteurs']; ?></p>
+      </div>
     </li>
     <?php } 
     ?>

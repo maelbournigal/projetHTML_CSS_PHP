@@ -462,12 +462,6 @@ img[title='nosbureaux']{
 	font-size: 1.1em;
 }
 
-/* INSERT BACKGROUND */
-body
-{
-	background: url('background_services.jpg') no-repeat;
-	background-size: 100% 100%;
-}
 
 /************************/
 /*						*/
@@ -565,13 +559,6 @@ h1{
 /*      INSERT BACKGROUND & COMMON CODE     */
 /*                                          */
 /********************************************/
-body
-{
-    background: url('img/background_references.jpg') no-repeat;
-    background-size: 100% 100%; /* The background takes all the space in height and width */
-    margin: 0 auto;
-    padding: 0 auto;
-}
 
 section[id="references"]
 {

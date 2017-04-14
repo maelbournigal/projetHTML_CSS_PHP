@@ -7,6 +7,7 @@
         <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
     </head>
     <body>
+<!--      inclusion header et menu par mael bournigal-->
         <?php  include('../headerprojet.html');
       include('../menu.html');?>
         <!-- JÉRÉMY NUNES

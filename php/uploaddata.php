@@ -1,3 +1,4 @@
+<!--samuel poultier-->
 <?php 
 $dossier = '../upload/'; /*on spécifie le chemin d'accès du fichier pour la variable dossier*/
 $fichier = basename($_FILES['mon_fichier']['name']); /*variable d'environnement $_File qui récupère le nom du fichier*/

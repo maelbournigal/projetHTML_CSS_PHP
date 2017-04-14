@@ -9,7 +9,7 @@
     
   <body>
       
-    <!--        insertion du header et du menu-->
+    <!--        insertion du header et du menu par mael bournigal-->
     <?php include('../headerprojet.html'); 
         include('../menu.html');
     ?>

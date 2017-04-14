@@ -384,49 +384,6 @@ width: 100%;
 text-align: center;
 }
 
-/*css actu fait par samuel*/
-/* ACTU */
-.actu {
-position: relative;
-display: flex;
-margin-left: 15%;
-margin-right: 5%;
-border: 1px solid black;
-border-radius:2%;
-}
-#grey, #bodyactu{
-background-color: grey;
-}
-.actu p {
-padding-top: 2%;
-}
-
-.actu .titleactu {
-color: blue;
-width: 100%;
-padding-left: 1%;
-}
-
-.actu .imgactu {
-width:30%;
-height:15%;
-display:block;
-float: left;
-margin-left: 2%;
-margin-top: 2%;
-}
-
-#news1 {
-margin-top:2%;
-}
-
-#news2 {
-margin-top:2%;
-}
-
-#news3 {
-margin-top:2%;
-}
 
 /**********************************************/
 /* 											  */
@@ -459,13 +416,6 @@ font-size: 2.5em;
 font-family: 'Concert One', cursive;
 color: black;
 font-size: 1.1em;
-}
-
-/* INSERT BACKGROUND */
-body
-{
-background: url('background_services.jpg') no-repeat;
-background-size: 100% 100%;
 }
 
 /************************/
@@ -573,13 +523,6 @@ left: 25%;
 /*      INSERT BACKGROUND & COMMON CODE     */
 /*                                          */
 /********************************************/
-body
-{
-    background: url('../img/background_references.jpg') no-repeat;
-    background-size: 100% 100%; /* The background takes all the space in height and width */
-    margin: 0 auto;
-    padding: 0 auto;
-}
 
 section[id="references"]
 {
@@ -681,6 +624,47 @@ div[id="title"] /* Management of the whole of div "title" */
 /*          END OF WORK OF THIS PART          */
 /*                                            */
 /**********************************************/
+
+/*maxime grand page actualite*/
+.actu {
+    position: relative;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 5%;
+    border: 1px solid black;
+    border-radius:2%;
+}
+
+#colortextactu ul{
+  list-style: none;
+}
+
+.article{
+  width: 80%;
+  position: relative;
+}
+.auteur{
+  width: 5%;
+  height: 2%;
+  position: relative;
+  top: -10px;
+  font-size: 0.7em;
+}
+.actu .titleactu {
+    color: blue;
+    width: 30%;
+    height: 2%;
+    text-align: left;
+    margin-left: 2%;
+}
+
+.actu .imgactu {
+    width:15%;
+    height:18%;
+    display:block;
+    float: left;
+    margin: 2%;
+}
 
 /************************************************************/
 /************************************************************/
